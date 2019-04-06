@@ -42,63 +42,83 @@
   <![endif]-->
 
     <div class="plancontainer">
-        <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 342.6 319.9" style="enable-background:new 0 0 342.6 319.9;" xml:space="preserve">
-            <polygon class="one" points="16.1,85 0,85 0,133.5 16.1,133.5 16.1,158 0,158 0,206.5 16.1,206.5 95.8,206.5 95.8,215.4 113.6,215.4 113.6,206.5 113.6,85 "/>
-            <polygon class="one" points="179.1,0 163,0 163,48.5 179.1,48.5 179.1,73 163,73 163,121.5 179.1,121.5 258.8,121.5 258.8,130.4 276.6,130.4 276.6,121.5 276.6,0 "/>
-            <polygon class="one" points="245.1,189.5 229,189.5 229,238 245.1,238 245.1,262.5 229,262.5 229,311 245.1,311 324.8,311 324.8,319.9 342.6,319.9 342.6,311 342.6,189.5 "/>
-        </svg>
+        <svg version="1.1" id="adler" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 188.2 91.2" style="enable-background:new 0 0 188.2 91.2;" xml:space="preserve">
+            <path class="st0" d="M94.1,58.1c15.2,26.3,27.7,16,27.7,16S124.5,58.1,94.1,58.1"/>
+            <path class="st0" d="M94.1,58.1c-30.4,0-27.7,16-27.7,16S78.9,84.4,94.1,58.1"/>
+            <path class="st0" d="M94.1,58.1c-15.2,26.3,0,32,0,32S109.3,84.4,94.1,58.1"/>
+            <path class="st0" d="M94.1,58.1c0,0-31,0-46.6,0c-23.3,0-23.3-17.9-23.3-17.9s7.8,0,23.3,0"/>
+            <path class="st0" d="M94.1,58.1c0,0,31,0,46.6,0c23.3,0,23.3-17.9,23.3-17.9s-7.8,0-23.3,0"/>
+            <path class="st0" d="M94.3,1.4c0,0-24.9,24.6-0.1,38.9C118.9,26,94.3,1.4,94.3,1.4z"/>
+            <path class="st0" d="M94.1,58.1c0,0-7.8,0-23.3,0c-23.3,0-23.3-17.9-23.3-17.9s7.8,0,23.3,0C94.1,40.3,94.1,58.1,94.1,58.1z"/>
+            <path class="st0" d="M94.1,58.1c0,0,7.8,0,23.3,0c23.3,0,23.3-17.9,23.3-17.9s-7.8,0-23.3,0C94.1,40.3,94.1,58.1,94.1,58.1z"/>
+            <path class="st0" d="M94.1,58.1c0,0,0-17.9,23.3-17.9c15.5,0,23.3,0,23.3,0h23.3c23.3,0,23.3-17.9,23.3-17.9s-31,0-46.6,0
+                                 c-23.3,0-46.6,17.9-46.6,17.9h0c0,0-23.3-17.9-46.6-17.9c-15.5,0-46.6,0-46.6,0s0,17.9,23.3,17.9h23.3c0,0,7.8,0,23.3,0
+	C94.1,40.3,94.1,58.1,94.1,58.1"/>
+</svg>
     </div>
     
     <div class="form">
-         <?php
-      if(isset($_POST['submit'])){
-        $name = htmlspecialchars(stripslashes(trim($_POST['name'])));
-        $subject = htmlspecialchars(stripslashes(trim($_POST['subject'])));
-        $email = htmlspecialchars(stripslashes(trim($_POST['email'])));
-        $message = htmlspecialchars(stripslashes(trim($_POST['message'])));
-        if(!preg_match("/^[A-Za-z .'-]+$/", $name)){
-          $name_error = 'Invalid name';
+        <?php
+        if(isset($_POST['submit'])){
+            $name = htmlspecialchars(stripslashes(trim($_POST['name'])));
+            $vorname = htmlspecialchars(stripslashes(trim($_POST['vorname'])));
+            $subject = htmlspecialchars(stripslashes(trim($_POST['subject'])));
+            $email = htmlspecialchars(stripslashes(trim($_POST['email'])));
+            $message = htmlspecialchars(stripslashes(trim($_POST['message'])));
+            if(!preg_match("/^[A-Za-z .'-]+$/", $name)){
+                $name_error = 'Invalid name';
+            }
+            if(!preg_match("/^[A-Za-z .'-]+$/", $vorname)){
+                $vorname_error = 'Invalid name';
+            }
+            if(!preg_match("/^[A-Za-z .'-]+$/", $subject)){
+                $subject_error = 'Invalid subject';
+            }
+            if(!preg_match("/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/", $email)){
+                $email_error = 'Invalid email';
+            }
+            if(strlen($message) === 0){
+                $message_error = 'Your message should not be empty';
+            }
         }
-        if(!preg_match("/^[A-Za-z .'-]+$/", $subject)){
-          $subject_error = 'Invalid subject';
-        }
-        if(!preg_match("/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/", $email)){
-          $email_error = 'Invalid email';
-        }
-        if(strlen($message) === 0){
-          $message_error = 'Your message should not be empty';
-        }
-      }
-    ?>
+        ?>
     
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
-      <label for="name">Name:</label><br>
-      <input type="text" name="name">
-      <p><?php if(isset($name_error)) echo $name_error; ?></p>
-      <label for="subject">Subject:</label><br>
-      <input type="text" name="subject">
-      <p><?php if(isset($subject_error)) echo $subject_error; ?></p>
-      <label for="email">Email:</label><br>
-      <input type="text" name="email">
-      <p><?php if(isset($email_error)) echo $email_error; ?></p>
-      <label for="message">Message:</label><br>
-      <textarea name="message"></textarea>
-      <p><?php if(isset($message_error)) echo $message_error; ?></p>
-      <input type="submit" name="submit" value="Submit">
-      <?php 
-        if(isset($_POST['submit']) && !isset($name_error) && !isset($subject_error) && !isset($email_error) && !isset($message_error)){
-          $to = 'ivoschwizer@gmail.com'; // edit here
-          $body = " Name: $name\n E-mail: $email\n Message:\n $message";
-          if(mail($to, $subject, $body)){
-            echo '<p style="color: green">Message sent</p>';
-          }else{
-            echo '<p>Error occurred, please try again later</p>';
-          }
-        }
-      ?>
-    </form>
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" name="name">
+            <p><?php if(isset($name_error)) echo $name_error; ?></p>
+            
+            <label for="vorname">Vorname:</label><br>
+            <input type="text" name="vorname">
+            <p><?php if(isset($vorname_error)) echo $vorname_error; ?></p>
+            
+            <label for="subject">Subject:</label><br>
+            <input type="text" name="subject">
+            <p><?php if(isset($subject_error)) echo $subject_error; ?></p>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email">
+            <p><?php if(isset($email_error)) echo $email_error; ?></p>
+            <label for="message">Message:</label><br>
+            <textarea name="message"></textarea>
+            <p><?php if(isset($message_error)) echo $message_error; ?></p>
+            <input type="submit" name="submit" value="Submit">
+            <?php 
+            if(isset($_POST['submit']) && !isset($name_error) && !isset($subject_error) && !isset($email_error) && !isset($message_error)){
+                $to = 'ivoschwizer@gmail.com'; // edit here
+                $body = " Name: $name\n E-mail: $email\n Message:\n $message";
+                if(mail($to, $subject, $body)){
+                    echo '<p style="color: green">Message sent</p>';
+                }else{
+                    echo '<p>Error occurred, please try again later</p>';
+                }
+            }
+            ?>
+        </form>
     </div>
+    
+    
+ 
     
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

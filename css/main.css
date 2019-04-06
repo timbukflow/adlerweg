@@ -187,23 +187,30 @@ button:focus {
 svg animation
 -----------------------------------*/
 
-svg {
-    overflow: visible;
+.st0, .od {
+    fill:none;
+    stroke:#A52B4D;
+    stroke-width:2;
+    stroke-miterlimit:20;
+    transition: all 0.5s ease-in-out;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: dash 3s ease-in-out;
 }
 
-.one {
-    -webkit-transition: ease 0.5s;
-    -moz-transition: ease 0.5s;
-    -o-transition: ease 0.5s;
-    transition: ease 0.5s;
-   transform-origin: 50% 50%;
-    
+@keyframes dash {
+    from {
+      stroke-dashoffset: 300;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+#adler:hover .st0 {
+    stroke:#58448d;
 }
 
-.one:hover {
-    fill: blue;
-    transform: scale(1.1);
-}
 
 /*---------------------------------- 
 footer impressum
