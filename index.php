@@ -33,7 +33,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Signika:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri:400,700" rel="stylesheet">
 </head>
 
 <body>
@@ -44,16 +44,14 @@
     <nav id="navcontainer" >  
         <div class="logocontainer">
             <a href="index" target="_top">
-                <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg">
-                <h1>Adlerweg Wittenbach</h1>
+                <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg"><h1>Adlerweg Wittenbach</h1>
             </a>
-            
-        </div>
-        <div id="navburger">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>    
+            <div id="navburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>    
+            </div>
         </div>
         <div class="nav">
             <ul>
@@ -61,18 +59,50 @@
                 <li><a href="grundrisse">Grundrisse</a></li>
                 <li><a href="preise">Preis</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
+                <li>
+                    <a href="index" target="_top">
+                        <img class="logo-weiss" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo-weiss.svg">
+                    </a>
+                </li>
+                
             </ul>
-        </div> 
+        </div>
     </nav>
     
-    <div class="plancontainer">
-         <div class="logo-container">
-            <a href="index" target="_top">
-                <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg">
-            </a>
-        </div>
+    <article class="article-projekt">
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
+        <h1 class="headline-left">
+            An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
+        </h1>
+        <h4>3</h4>
+    </article>
+    
+    <article class="article-projekt">
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
+        <h1 class="headline-right">
+            In diesen <span>51</span> gemütlichen Wohnungen beginnt ein neuer Lebensabschnitt, der für Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verfügt über ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg.
+        </h1>
+        <h4 class="right">51</h4>
+    </article>
+    
+     <article class="article-projekt">
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-kochen-essen.jpg" >
+        <h1 class="headline-left">
+            Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und Türen, die von der Decke bis zum Boden reichen, noch mehr an Grösse gewinnt. Mit modernen Flügeltüren zum <span>2.8m</span> tiefen Balkon, lässt sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
+        </h1>
+        <h4>2.8</h4>
+    </article>
+    
+    <div class="footer">
+        <ul>
+            <li><a href="lage">Lage</a></li>
+            <li><a href="grundrisse">Grundrisse</a></li>
+            <li><a href="preise">Preise</a></li>
+            <li><a href="kontakt">Kontakt</a></li>     
+        </ul>   
     </div>
     
+<!--
     <div class="form">
         <?php
         if(isset($_POST['submit'])){
@@ -132,7 +162,7 @@
         </form>
     </div>
     
-    
+    -->
  
     
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
