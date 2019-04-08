@@ -41,6 +41,30 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
+    <nav id="navcontainer" >  
+        <div class="logocontainer">
+            <a href="index" target="_top">
+                <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg">
+                <h1>Adlerweg Wittenbach</h1>
+            </a>
+            
+        </div>
+        <div id="navburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>    
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="lage">Lage</a></li>
+                <li><a href="grundrisse">Grundrisse</a></li>
+                <li><a href="preise">Preis</a></li>
+                <li><a href="kontakt">Kontakt</a></li>
+            </ul>
+        </div> 
+    </nav>
+    
     <div class="plancontainer">
          <div class="logo-container">
             <a href="index" target="_top">
