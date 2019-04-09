@@ -374,6 +374,56 @@ footer
 
 
 /*---------------------------------- 
+adler animation entwicklung
+-----------------------------------*/
+
+
+.svgholder {
+    width: 300px;
+    position: relative;
+}
+
+#dd {
+    width: 52px;
+    overflow: inherit;
+    position: absolute;
+    bottom: 29px;
+    right: 149px;
+    
+    animation: spin 3s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+    transform-origin: top right;
+    animation-iteration-count: 2;
+    
+}
+
+
+    @keyframes spin {
+  50% {
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+
+
+.svgholder:hover #dd {
+    animation-play-state: paused;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------- 
 impressum
 -----------------------------------*/
 
