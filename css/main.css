@@ -210,7 +210,7 @@ button:focus {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;  
-    background-image: url("../img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg");
+    background-image: url("../img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-kochen-essen.jpg");
 }
 
 
@@ -445,9 +445,9 @@ adler animation entwicklung
     bottom: 29px;
     right: 149px;
     
-    animation: spin 3s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+    animation: spin 3s ease infinite;
     transform-origin: top right;
-    animation-iteration-count: 2;
+    animation-play-state: paused;
     
 }
 
@@ -466,7 +466,7 @@ adler animation entwicklung
 
 
 .svgholder:hover #dd {
-    animation-play-state: paused;
+    animation-play-state: running;
 }
 
 
@@ -518,323 +518,17 @@ responsive ipad
 
 @media only screen and (max-width: 1024px) {
     
-    h1, h2, h3, p {
-    padding: 0 10%;
-    }
-    
-    h1 {
-    font-size: 32px; 
-    margin-top: 150px;
-    }
-    
-    h2 {
-    font-size: 18px;
-    }
-
-    h2.left {
-    margin-top: 20px;
-    padding: 0 6%;
-    hyphens: auto;
-    }
-    
-    a {
-    font-size: 32px;
-    }
-    
-    .imgcontainer {
-    margin: 45px 7% 15px 7%;
-    }
-    
-    .column25 {
-    width: 25%;
-    }
-    
-    .imgcontainer25 {
-    margin: 36px auto;
-    }
-    
-    .imgcontainer50 {
-    width: 40%;
-    margin: 36px auto;
-    }
+   
 }
 
 @media only screen and (max-width: 768px) {
     
-    .column25 {
-    width: 50%;
-    }
-    
-    .imgcontainer50 {
-    width: 50%;
-    }
+   
 }
 
 @media only screen and (max-width: 375px) {
     
-    .nav-logo {
-    padding-top: 20px !important;
-    width: 140px !important;
-    }
-    
-    #navburger {
-    margin: 36px !important;
-    width: 20px;
-    }
-    
-    .circle-container {
-    height: 150px;
-    width: 150px;
-    }
-    
-    .circle {
-    height: 150px;
-    width: 150px;
-    }
-    
-    @-webkit-keyframes circle-1 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-700px, 0px); }
-        35%  { transform: translate(-70px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-moz-keyframes circle-1 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-70px, 0px); }
-        35%  { transform: translate(-70px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-o-keyframes circle-1 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-70px, 0px); }
-        35%  { transform: translate(-70px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @keyframes circle-1 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-70px, 0px); }
-        35%  { transform: translate(-70px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    
-    @-webkit-keyframes circle-2 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-35px, -61px); }
-        35%  { transform: translate(-35px, -61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-moz-keyframes circle-2 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-35px, -61px); }
-        35%  { transform: translate(-35px, -61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-o-keyframes circle-2 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-35px, -61px); }
-        35%  { transform: translate(-35px, -61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @keyframes circle-2 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-35px, -61px); }
-        35%  { transform: translate(-35px, -61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    
-    
-    @-webkit-keyframes circle-3 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(35px, -61px); }
-        35%  { transform: translate(35px, -61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-moz-keyframes circle-3 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(35px, -61px); }
-        35%  { transform: translate(35px, -61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-o-keyframes circle-3 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(35px, -61px); }
-        35%  { transform: translate(35px, -61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }@keyframes circle-3 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(35px, -61px); }
-        35%  { transform: translate(35px, -61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    
-    
-    @-webkit-keyframes circle-4 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(70px, 0px); }
-        35%  { transform: translate(70px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-moz-keyframes circle-4 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(70px, 0px); }
-        35%  { transform: translate(70px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-o-keyframes circle-4 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(70px, 0px); }
-        35%  { transform: translate(70px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @keyframes circle-4 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(70px, 0px); }
-        35%  { transform: translate(70px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    
-    @-webkit-keyframes circle-5 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(35px, 61px); }
-        35%  { transform: translate(35px, 61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-moz-keyframes circle-5 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(35px, 61px); }
-        35%  { transform: translate(35px, 61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-o-keyframes circle-5 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(35px, 61px); }
-        35%  { transform: translate(35px, 61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @keyframes circle-5 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(35px, 61px); }
-        35%  { transform: translate(35px, 61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    
-    @-webkit-keyframes circle-6 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-35px, 61px); }
-        35%  { transform: translate(-35px, 61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-moz-keyframes circle-6 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-35px, 61px); }
-        35%  { transform: translate(-35px, 61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @-o-keyframes circle-6 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-35px, 61px); }
-        35%  { transform: translate(-35px, 61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    @keyframes circle-6 {
-        0%   { transform: translate(0, 0) scale(0.1); }
-        30%  { transform: translate(-35px, 61px); }
-        35%  { transform: translate(-35px, 61px); }
-        95%  { transform: translate(0, 0) scale(0.1); }
-        100% { transform: translate(0, 0) scale(0.1); }
-    }
-    
-    @-webkit-keyframes circle-7 {
-        0%   { transform: translate(0, 0) scale(0.15); }
-        30%  { transform: translate(0px, 0px); }
-        35%  { transform: translate(0px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.15); }
-        100% { transform: translate(0, 0) scale(0.15); }
-    } 
-    @-moz-keyframes circle-7 {
-        0%   { transform: translate(0, 0) scale(0.15); }
-        30%  { transform: translate(0px, 0px); }
-        35%  { transform: translate(0px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.15); }
-        100% { transform: translate(0, 0) scale(0.15); }
-    } 
-    @-o-keyframes circle-7 {
-        0%   { transform: translate(0, 0) scale(0.15); }
-        30%  { transform: translate(0px, 0px); }
-        35%  { transform: translate(0px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.15); }
-        100% { transform: translate(0, 0) scale(0.15); }
-    } 
-    @keyframes circle-7 {
-        0%   { transform: translate(0, 0) scale(0.15); }
-        30%  { transform: translate(0px, 0px); }
-        35%  { transform: translate(0px, 0px); }
-        95%  { transform: translate(0, 0) scale(0.15); }
-        100% { transform: translate(0, 0) scale(0.15); }
-    }
-    
-    .header-container {
-    bottom: 7%;
-    }
-    
-    h1, h2, h3, p {
-    padding: 0 3%;
-    }
-    
-    h3 span {
-    display: block;
-    font-size: 25px;
-    }
-    
-    h1 {
-    font-size: 23px; 
-    margin-top: 90px;
-    hyphens: auto;
-    }
-    
-    #stress, #konzept, #loesung, .produkte, .kontakt, #footer {
-    width: 90%;
-    margin: 0 5%;
-    }
-    
-    .imgcontainer {
-    margin: 25px 5% 15px 5%;
-    }
-    
-    .column33 {
-    width: 100%;
-    }
-    
-    .column25 {
-    width: 100%;
-    }
-    
-     .column50 {
-    width: 100%;
-    }
+  
 }
 
 

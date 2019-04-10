@@ -70,14 +70,10 @@
     
     <div class="headercontainer">
             <div class="headerimg"></div>
-            <div class="icon-scroll"></div>
-            <div class="section-stage-container">
-                <h2>Rosenberg</h2>
-            </div>
         </div>
     
     <article class="article-projekt">
-        <img class="inview" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
+        <img class="inview" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
         <h1 class="headline-left">
             An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
         </h1>
