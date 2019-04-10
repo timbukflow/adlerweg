@@ -120,6 +120,19 @@ h1, h2, h3, h4, p, a {
     letter-spacing: 0.3px;
 }
 
+h1.header {
+    font-size: 24px;
+    line-height: 1.3;
+    display: inline-block;
+    padding: 0px 25px;
+    letter-spacing: 4px;
+    vertical-align: middle;
+        -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -o-transition: ease 1s;
+    transition: ease 1s;3
+}
+
 h1 {
     font-size: 22px;
     line-height: 1.3;
@@ -180,6 +193,28 @@ button:focus {
 }
 
 /*---------------------------------- 
+    header
+-----------------------------------*/
+
+.headercontainer {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.headerimg{
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;  
+    background-image: url("../img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg");
+}
+
+
+/*---------------------------------- 
     header nav
 -----------------------------------*/
 
@@ -193,12 +228,17 @@ button:focus {
 }
 
 .logocontainer {
-    padding: 25px 45px;
+    padding: 22px 45px;
+    -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -o-transition: ease 1s;
+    transition: ease 1s;
     
 }
 
 .logo {
-    width: 102px;
+    width: 130px;
+    transition: ease 1s;
 }
 
 .logo-weiss {
@@ -207,7 +247,7 @@ button:focus {
 
 
 /*---------------------------------- 
-nav burger
+    nav burger
 -----------------------------------*/
 
 #navburger {
@@ -215,7 +255,7 @@ nav burger
     width: 25px;
     height: 17px;
     position: relative;
-    margin: 25px;
+    margin: 28px 0px;
     cursor: pointer;
     z-index: 11;
     -webkit-transition: ease 1s;
@@ -372,6 +412,21 @@ footer
     background-color: #74182c;
 }
 
+/*---------------------------------- 
+    inview
+-----------------------------------*/
+
+.inview {
+    left: -50%;
+    position: absolute;
+    -webkit-transition: all 1s ease-in 0.5s;
+    transition:         all 1s ease-in 0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.inview-fade {
+    left:0px;
+}
 
 /*---------------------------------- 
 adler animation entwicklung

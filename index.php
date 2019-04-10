@@ -44,7 +44,7 @@
     <nav id="navcontainer" >  
         <div class="logocontainer">
             <a href="index" target="_top">
-                <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg"><h1>Adlerweg Wittenbach</h1>
+                <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg"><h1 class="header">ADLERWEG WITTENBACH</h1>
             </a>
             <div id="navburger">
                 <span></span>
@@ -64,13 +64,12 @@
                         <img class="logo-weiss" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo-weiss.svg">
                     </a>
                 </li>
-                
             </ul>
         </div>
     </nav>
     
-    <div class="header-img-container">
-            <div class="header-img-start header-img-defin"></div>
+    <div class="headercontainer">
+            <div class="headerimg"></div>
             <div class="icon-scroll"></div>
             <div class="section-stage-container">
                 <h2>Rosenberg</h2>
@@ -78,7 +77,7 @@
         </div>
     
     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
+        <img class="inview" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
         <h1 class="headline-left">
             An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
         </h1>
