@@ -127,10 +127,10 @@ h1.header {
     padding: 0px 25px;
     letter-spacing: 4px;
     vertical-align: middle;
-        -webkit-transition: ease 1s;
-    -moz-transition: ease 1s;
-    -o-transition: ease 1s;
-    transition: ease 1s;3
+        -webkit-transition: .75s ease-in-out;
+    -moz-transition: .75s ease-in-out;
+    -o-transition: .75s ease-in-out;
+    transition: .75s ease-in-out;
 }
 
 h1 {
@@ -149,6 +149,11 @@ h4 {
     font-size: 300px;
     margin: 0;
     z-index: 100;
+    opacity: 1;
+    -webkit-transition: .75s ease-in-out;
+    -moz-transition: .75s ease-in-out;
+    -o-transition: .75s ease-in-out;
+    transition: .75s ease-in-out;
 }
 
 .right {
@@ -227,12 +232,20 @@ button:focus {
     top: 0;
 }
 
+.navon {
+    opacity: 0;
+    -webkit-transition: .75s ease-in-out;
+    -moz-transition: .75s ease-in-out;
+    -o-transition: .75s ease-in-out;
+    transition: .75s ease-in-out;
+}
+
 .logocontainer {
     padding: 22px 45px;
-    -webkit-transition: ease 1s;
-    -moz-transition: ease 1s;
-    -o-transition: ease 1s;
-    transition: ease 1s;
+    -webkit-transition:.75s ease-in-out;
+    -moz-transition: .75s ease-in-out;
+    -o-transition: .75s ease-in-out;
+    transition: .75s ease-in-out;
     
 }
 
@@ -241,8 +254,60 @@ button:focus {
     transition: ease 1s;
 }
 
-.logo-weiss {
+/*---------------------------------- 
+    adler animation
+-----------------------------------*/
+
+.logo-weiss svg {
     width: 300px;
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-width:2;
+    stroke-miterlimit:10;
+    margin-top: 30px;
+}
+
+.b {
+    fill: #A52340;
+}
+
+.a {
+    animation: aspin 1s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+    transform-origin: 50% 60%;
+    animation-play-state: paused; 
+}
+
+.c {
+    animation: bspin 1s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+    transform-origin: 50% 60%;
+    animation-play-state: paused; 
+}
+
+
+    @keyframes aspin {
+  50% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+            @keyframes bspin {
+  50% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.nav ul:hover .c,
+.nav ul:hover .a {
+    animation-play-state: running;
 }
 
 
@@ -258,10 +323,10 @@ button:focus {
     margin: 28px 0px;
     cursor: pointer;
     z-index: 11;
-    -webkit-transition: ease 1s;
-    -moz-transition: ease 1s;
-    -o-transition: ease 1s;
-    transition: ease 1s;
+    -webkit-transition: .75s ease-in-out ;
+    -moz-transition: .75s ease-in-out;
+    -o-transition: .75s ease-in-out;
+    transition: .75s ease-in-out;
 }
 
 #navburger span {
@@ -325,7 +390,6 @@ button:focus {
     height: 100vh;
     width: 100%;
     position: absolute;
-    z-index: 100;
     display: none;
     left: 0;
 }
@@ -345,7 +409,7 @@ button:focus {
 }
 
 .nav ul.up {
-    bottom: 30%;
+    bottom: 20%;
 }
 
 .nav li {
@@ -372,8 +436,9 @@ artikle projekt
     overflow: hidden;
 }
 
-article img {
+.article-projekt img {
     width: 60%;
+    position: relative;
 }
 
 /*---------------------------------- 
@@ -429,56 +494,6 @@ footer
 }
 
 /*---------------------------------- 
-adler animation entwicklung
------------------------------------*/
-
-
-.svgholder {
-    width: 300px;
-    position: relative;
-}
-
-#dd {
-    width: 52px;
-    overflow: inherit;
-    position: absolute;
-    bottom: 29px;
-    right: 149px;
-    
-    animation: spin 3s ease infinite;
-    transform-origin: top right;
-    animation-play-state: paused;
-    
-}
-
-
-    @keyframes spin {
-  50% {
-    -webkit-transform: rotate(-60deg);
-            transform: rotate(-60deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-}
-
-
-
-.svgholder:hover #dd {
-    animation-play-state: running;
-}
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------- 
 impressum
 -----------------------------------*/
 
@@ -508,7 +523,6 @@ impressum
 .togglelink {
     cursor: pointer;
 }
-
 
 /*---------------------------------- 
 responsive ipad

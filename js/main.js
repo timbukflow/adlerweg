@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     
 ///////////////// nav ///////////////// 
     
@@ -7,6 +8,7 @@ $(document).ready(function () {
         $('.nav').fadeToggle(1000);
         $('.nav ul').toggleClass('up');
         $('.nav li').toggleClass('open');
+        $('h4').toggleClass('navon')
 	});
 
 ///////////////// Sroll resizing Navigation ///////////////// 
@@ -22,7 +24,7 @@ $(document).ready(function () {
             $('.logo').css('width', '130px');
             $('#navburger').css('margin', '28px 0px');
             $('h1.header').css('fontSize', '24px');
-            $('.logocontainer').css('padding', '22px 45px;');
+            $('.logocontainer').css('padding', '22px 45px');
         }
     });
 
@@ -40,5 +42,4 @@ $(document).ready(function () {
             }
         }); 
     }).scroll();
-    
 });
