@@ -140,6 +140,15 @@ h1 {
     padding: 0 15px;
 }
 
+h2 {
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+h2 span {
+    color: #A52340;
+}
+
 
 h4 {
     color: #A52340;
@@ -484,10 +493,15 @@ button:focus {
     artikle grundrisse 
 -----------------------------------*/
 
+.top {
+    margin-top: 100px;
+}
+
 .article-grundrisse {
-    margin-top: 200px;
     position: relative;
     overflow: hidden;
+    padding-top: 100px;
+    background-color: #ededed;
 }
 
 .article-grundrisse-left {
@@ -499,8 +513,9 @@ button:focus {
 }
 
 .article-grundrisse-left img {
-    margin: 20px 0px;
-    width: 80%;
+    margin: 70px 0px;
+    width: 70%;
+
 }
 
 .article-grundrisse-right {
@@ -510,8 +525,8 @@ button:focus {
 }
 
 .article-grundrisse-right img {
-    margin: 0 10%;
-    width: 80%;
+    margin: 10% 15%;
+    z-index: 2;
 }
 
 /*---------------------------------- 
@@ -558,13 +573,10 @@ footer
 -----------------------------------*/
 
 .footer {
-    height: 180px;
     position: relative;
 }
 
 .footer ul {
-    position: absolute;
-    bottom: 0;
     margin: 0;
     padding: 0;
     width: 100%;
