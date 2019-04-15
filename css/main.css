@@ -175,13 +175,25 @@ a {
     margin-top: 18%;  
 }
 
-.headline-right {
+.headline-left-lage, .headline-right-lage {
+    width: 40%;
+    float: right;
+    padding: 6%;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    hyphens: auto;
+}
+
+.headline-right, .headline-right-lage  {
     float: left;
 }
 
+.headline-right span, .headline-right-lage span  {
+    font-size: 30px;
+}
+
 .article-projekt span {
-    color: #A52340;
-   
+    color: #A52340;  
 }
 
 #impressum a {
@@ -210,12 +222,20 @@ button:focus {
 
 .headerimg{
     position: relative;
-    z-index: 1;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;  
     background-image: url("../img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-kochen-essen.jpg");
+}
+
+.headerimglage {
+    position: relative;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    background-image: url("../img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-luftbild.jpg");
 }
 
 
@@ -254,61 +274,16 @@ button:focus {
     transition: ease 1s;
 }
 
-/*---------------------------------- 
-    adler animation
------------------------------------*/
-
-.logo-weiss svg {
-    width: 300px;
-    fill:none;
-    stroke:#FFFFFF;
-    stroke-width:2;
-    stroke-miterlimit:10;
-    margin-top: 30px;
+.phone, .mail {
+    float: right;
+    position: relative;
+    margin: 25px 30px 25px 0px;
 }
 
-.b {
-    fill: #A52340;
+.phone img, .mail img{
+    width: 24px;
 }
 
-.a {
-    animation: aspin 1s cubic-bezier(0.8, 0, 0.2, 1) infinite;
-    transform-origin: 50% 60%;
-    animation-play-state: paused; 
-}
-
-.c {
-    animation: bspin 1s cubic-bezier(0.8, 0, 0.2, 1) infinite;
-    transform-origin: 50% 60%;
-    animation-play-state: paused; 
-}
-
-
-    @keyframes aspin {
-  50% {
-    -webkit-transform: rotate(-15deg);
-            transform: rotate(-15deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-}
-            @keyframes bspin {
-  50% {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-}
-
-.nav ul:hover .c,
-.nav ul:hover .a {
-    animation-play-state: running;
-}
 
 
 /*---------------------------------- 
@@ -424,10 +399,73 @@ button:focus {
     padding: 16px;
 }
 
+/*---------------------------------- 
+    adler animation
+-----------------------------------*/
+
+.logo-weiss svg {
+    width: 300px;
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-width:2;
+    stroke-miterlimit:10;
+    margin-top: 30px;
+}
+
+.b {
+    fill: #A52340;
+}
+
+.a {
+    animation: aspin 1s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+    transform-origin: 50% 60%;
+    animation-play-state: paused; 
+}
+
+.c {
+    animation: bspin 1s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+    transform-origin: 50% 60%;
+    animation-play-state: paused; 
+}
+
+
+@keyframes aspin {
+    50% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+    }
+    100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    }
+}
+
+@keyframes bspin {
+      50% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    }
+    100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.nav ul:hover .c,
+.nav ul:hover .a {
+    animation-play-state: running;
+}
+
+
+.noscroll {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
 
 
 /*---------------------------------- 
-artikle projekt
+    artikle projekt
 -----------------------------------*/
 
 .article-projekt {
@@ -440,6 +478,80 @@ artikle projekt
     width: 60%;
     position: relative;
 }
+
+
+/*---------------------------------- 
+    artikle grundrisse 
+-----------------------------------*/
+
+.article-grundrisse {
+    margin-top: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.article-grundrisse-left {
+    width: 40%;
+    margin: 0px 5%;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.article-grundrisse-left img {
+    margin: 20px 0px;
+    width: 80%;
+}
+
+.article-grundrisse-right {
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.article-grundrisse-right img {
+    margin: 0 10%;
+    width: 80%;
+}
+
+/*---------------------------------- 
+    table
+-----------------------------------*/
+
+table, th, td, td a {
+    font-family: 'Amiri', serif;
+    color: rgba(38, 30, 34, 0.75);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid #A52340;
+    border-collapse: collapse;
+    padding: 10px 0px;
+}
+
+td a {
+    border: none;
+}
+
+td span {
+    color: #A52340;
+}
+
+table {
+    border: none;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+tr:hover {
+    background-color: rgba(183, 183, 183, 0.1);
+}
+
 
 /*---------------------------------- 
 footer

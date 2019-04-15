@@ -62,7 +62,7 @@
         </div>
         <div class="nav">
             <ul>
-                <li><a href="lage">Lage</a></li>
+                <li><a href="index">Projekt</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
                 <li><a href="preise">Preis</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
@@ -83,104 +83,42 @@
     </nav>
     
     <div class="headercontainer">
-            <div class="headerimg"></div>
+            <div class="headerimglage"></div>
         </div>
     
     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
-        <h1 class="headline-left">
-            An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-01.jpg" >
+        <h1 class="headline-left-lage">
+            <span>Lage Wittenbach</span><br><br>
+            Die Wohngemeinde Wittenbach ist dank ihrer ausgesprochen attraktiven Lage zwischen St.Gallen und Bodensee nicht nur bei Familien sehr beliebt; Bewohner aller Altersgruppen erfreuen sich der vielen Möglichkeiten wie dem Naherholungsgebiet oder dem schnellen Anschluss mit öffentlichen oder privaten Verkehrsmitteln zur Stadt.
         </h1>
-        <h4>3</h4>
     </article>
     
     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
-        <h1 class="headline-right">
-            In diesen <span>51</span> gemütlichen Wohnungen beginnt ein neuer Lebensabschnitt, der für Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verfügt über ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg.
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-02.jpg" >
+        <h1 class="headline-right-lage">
+            <span>Schloss Dottenwil</span><br><br>
+            Ein breites Angebot von kulturellen, musischen, sozialen und sportlichen Vereinen laden die Bewohner ein sich zu betätigen, zu unterhalten, auszutauschen oder einfach nur zu geniessen. Das Schloss Dottenwil zieht bis weit über die Gemeindegrenze ein interessiertes Publikum mit Lesungen, Performances, Konzerten und Ausstellungen an und vereint mit jedem Anlass die Geschichte mit der Gegenwart.
         </h1>
-        <h4 class="right">51</h4>
     </article>
     
-     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
-        <h1 class="headline-left">
-            Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und Türen, die von der Decke bis zum Boden reichen, noch mehr an Grösse gewinnt. Mit modernen Flügeltüren zum <span>2.8m</span> tiefen Balkon, lässt sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
+    <article class="article-projekt">
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss.svg" >
+        <h1 class="headline-left-lage">
+            <span>Lage Wittenbach</span><br><br>
+            Die Wohngemeinde Wittenbach ist dank ihrer ausgesprochen attraktiven Lage zwischen St.Gallen und Bodensee nicht nur bei Familien sehr beliebt; Bewohner aller Altersgruppen erfreuen sich der vielen Möglichkeiten wie dem Naherholungsgebiet oder dem schnellen Anschluss mit öffentlichen oder privaten Verkehrsmitteln zur Stadt.
         </h1>
-        <h4>2.8</h4>
     </article>
+    
     
     <div class="footer">
         <ul>
-            <li><a href="lage">Lage</a></li>
+            <li><a href="index">Projekt</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
             <li><a href="preise">Preise</a></li>
             <li><a href="kontakt">Kontakt</a></li>     
         </ul>   
     </div>
-    
-    
-<!--
-    <div class="form">
-        <?php
-        if(isset($_POST['submit'])){
-            $name = htmlspecialchars(stripslashes(trim($_POST['name'])));
-            $vorname = htmlspecialchars(stripslashes(trim($_POST['vorname'])));
-            $subject = htmlspecialchars(stripslashes(trim($_POST['subject'])));
-            $email = htmlspecialchars(stripslashes(trim($_POST['email'])));
-            $message = htmlspecialchars(stripslashes(trim($_POST['message'])));
-            if(!preg_match("/^[A-Za-z .'-]+$/", $name)){
-                $name_error = 'Invalid name';
-            }
-            if(!preg_match("/^[A-Za-z .'-]+$/", $vorname)){
-                $vorname_error = 'Invalid name';
-            }
-            if(!preg_match("/^[A-Za-z .'-]+$/", $subject)){
-                $subject_error = 'Invalid subject';
-            }
-            if(!preg_match("/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/", $email)){
-                $email_error = 'Invalid email';
-            }
-            if(strlen($message) === 0){
-                $message_error = 'Your message should not be empty';
-            }
-        }
-        ?>
-    
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
-            <label for="name">Name:</label><br>
-            <input type="text" name="name">
-            <p><?php if(isset($name_error)) echo $name_error; ?></p>
-            
-            <label for="vorname">Vorname:</label><br>
-            <input type="text" name="vorname">
-            <p><?php if(isset($vorname_error)) echo $vorname_error; ?></p>
-            
-            <label for="subject">Subject:</label><br>
-            <input type="text" name="subject">
-            <p><?php if(isset($subject_error)) echo $subject_error; ?></p>
-            <label for="email">Email:</label><br>
-            <input type="text" name="email">
-            <p><?php if(isset($email_error)) echo $email_error; ?></p>
-            <label for="message">Message:</label><br>
-            <textarea name="message"></textarea>
-            <p><?php if(isset($message_error)) echo $message_error; ?></p>
-            <input type="submit" name="submit" value="Submit">
-            <?php 
-            if(isset($_POST['submit']) && !isset($name_error) && !isset($subject_error) && !isset($email_error) && !isset($message_error)){
-                $to = 'ivoschwizer@gmail.com'; // edit here
-                $body = " Name: $name\n E-mail: $email\n Message:\n $message";
-                if(mail($to, $subject, $body)){
-                    echo '<p style="color: green">Message sent</p>';
-                }else{
-                    echo '<p>Error occurred, please try again later</p>';
-                }
-            }
-            ?>
-        </form>
-    </div>
-    
-    -->
  
     
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>

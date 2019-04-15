@@ -9,6 +9,7 @@ $(document).ready(function () {
         $('.nav ul').toggleClass('up');
         $('.nav li').toggleClass('open');
         $('h4').toggleClass('navon')
+        $('body').toggleClass('noscroll')
 	});
 
 ///////////////// Sroll resizing Navigation ///////////////// 
