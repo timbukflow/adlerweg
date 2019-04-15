@@ -556,6 +556,7 @@ td span {
 
 table {
     border: none;
+    width: 100%;
 }
 
 th, td {
@@ -563,11 +564,63 @@ th, td {
   text-align: left;
 }
 
-tr:hover {
-    background-color: rgba(183, 183, 183, 0.1);
+.pnp {
+    font-size: 18px;
+    
 }
 
+.right {
+    text-align: right;
+}
 
+.nol {
+    border: none;
+}
+
+tr:hover {
+    background-color: rgba(165, 35, 64, 0.2);
+}
+
+/*---------------------------------- 
+    artikle miete 
+-----------------------------------*/
+
+.top {
+    margin-top: 100px;
+}
+
+.article-miete-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    margin: 0 10%;
+    margin-bottom: 100px;
+}
+
+.article-grundrisse-left {
+    width: 40%;
+    margin: 0px 5%;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.article-grundrisse-left img {
+    margin: 70px 0px;
+    width: 70%;
+
+}
+
+.article-grundrisse-right {
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.article-grundrisse-right img {
+    margin: 10% 15%;
+    z-index: 2;
+}
 /*---------------------------------- 
 footer
 -----------------------------------*/
