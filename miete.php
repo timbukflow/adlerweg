@@ -64,7 +64,7 @@
             <ul>
                 <li><a href="lage">Lage</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
-                <li><a href="preise">Preis</a></li>
+                <li><a href="preise">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
                 <a class="logo-weiss" href="index" target="_top">
                     <svg version="1.1" id="adlerlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 303 153.8" style="enable-background:new 0 0 303 153.8;" xml:space="preserve">
@@ -83,6 +83,156 @@
     </nav>
     
     <article class="article-miete-container top">
+        <h2>
+            <span>Haus A1</span><span class="pnp"> (Pauschale Nebenkosten, Preise in CHF)</span>  
+        </h2>
+        <div class="article-miete">
+            <table>   
+                <tr>  
+                    <th>Haus</th>
+                    <th>Ebene</th>    
+                    <th>Wohnung</th>  
+                    <th>Fläche</th>
+                    <th class="right">Miete / Monat</th>
+                    <th class="right">Nebenkosten</th>
+                </tr>   
+                <tr>
+                    <td>A1</td>
+                    <td>EG</td> 
+                    <td><span>1.1. / 3,5er</span></td>
+                    <td>89.70 m²</td> 
+                    <td class="right">1’520.00</td>
+                    <td class="right">160.00</td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>1.2. / 2,5er</span></td>
+                    <td>77.50 m²</td> 
+                    <td class="right">1’250.00</td>
+                    <td class="right">130.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>1.3. / 3,5er</span></td>
+                    <td>93.50 m²</td> 
+                    <td class="right">1’530.00</td>
+                    <td class="right">160.00</td>
+                </tr>
+             	
+                <tr>
+                    <td>A1</td>
+                    <td>1. OG</td> 
+                    <td><i>2.1. / 3,5er</i></td>
+                    <td><i>89.80 m²</i></td> 
+                    <td class="right"><i>reserviert</i></td>
+                    <td class="right"><i>reserviert</i></td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>2.2. / 2,5er</span></td>
+                    <td>75.00 m²</td> 
+                    <td class="right">1’270.00</td>
+                    <td class="right">130.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>2.3. / 4,5er</span></td>
+                    <td>112.90 m²</td> 
+                    <td class="right">1’790.00</td>
+                    <td class="right">210.00</td>
+                </tr>
+
+                <tr>
+                    <td>A1</td>
+                    <td>2. OG</td> 
+                    <td><i>3.1. / 3,5er</i></td>
+                    <td><i>89.80 m²</i></td> 
+                    <td class="right"><i>vermietet</i></td>
+                    <td class="right"><i>vermietet</i></td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><i>3.2. / 2,5er</i></td>
+                    <td><i>75.00 m²</i></td> 
+                    <td class="right"><i>vermietet</i></td>
+                    <td class="right"><i>vermietet</i></td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>3.3. / 4,5er</span></td>
+                    <td>112.90 m²</td> 
+                    <td class="right">1’810.00</td>
+                    <td class="right">210.00</td>
+                </tr>
+                
+                <tr>
+                    <td>A1</td>
+                    <td>3. OG</td> 
+                    <td><i>4.1. / 3,5er</i></td>
+                    <td><i>89.80 m²</i></td> 
+                    <td class="right"><i>reserviert</i></td>
+                    <td class="right"><i>reserviert</i></td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><i>4.2. / 2,5er</i></td>
+                    <td><i>75.00 m²</i></td> 
+                    <td class="right"><i>vermietet</i></td>
+                    <td class="right"><i>vermietet</i></td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><i>4.3. / 4,5er</i></td>
+                    <td><i>112.90 m²</i></td> 
+                    <td class="right"><i>reserviert</i></td>
+                    <td class="right"><i>reserviert</i></td>
+                </tr>
+                
+                <tr>
+                    <td>A1</td>
+                    <td>4. OG</td> 
+                    <td><span>5.1. / 3,5er</span></td>
+                    <td>89.80 m²</td> 
+                    <td class="right">1’670.00</td>
+                    <td class="right">160.00</td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>5.2. / 2,5er</span></td>
+                    <td>75.00 m²</td> 
+                    <td class="right">1’390.00</td>
+                    <td class="right">130.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><i>5.3. / 4,5er</i></td>
+                    <td><i>112.90 m²</i></td> 
+                    <td class="right"><i>vermietet</i></td>
+                    <td class="right"><i>vermietet</i></td>
+                </tr>
+                
+                <tr><td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="right"><a href="miete"><span>&#8595; Grundrisse PDF</span></a></td>
+                </tr>
+            </table>
+        </div>
+    </article>
+    
+    <article class="article-miete-container">
         <h2>
             <span>Haus A2</span><span class="pnp"> (Pauschale Nebenkosten, Preise in CHF)</span>  
         </h2>
@@ -257,77 +407,189 @@
         </div>
     </article>
     
+    <article class="article-miete-container">
+        <h2>
+            <span>Haus A3</span><span class="pnp"> (Pauschale Nebenkosten, Preise in CHF)</span>  
+        </h2>
+        <div class="article-miete">
+            <table>   
+                <tr>  
+                    <th>Haus</th>
+                    <th>Ebene</th>    
+                    <th>Wohnung</th>  
+                    <th>Fläche</th>
+                    <th class="right">Miete / Monat</th>
+                    <th class="right">Nebenkosten</th>
+                </tr>   
+                <tr>
+                    <td>A3</td>
+                    <td>EG</td> 
+                    <td><span>1.1. / 3,5er</span></td>
+                    <td>89.50 m²</td> 
+                    <td class="right">1’520.00</td>
+                    <td class="right">160.00</td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>1.2. / 4,5er</span></td>
+                    <td>118.00 m²</td> 
+                    <td class="right">1’770.00</td>
+                    <td class="right">210.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>1.3. / 2,5er</span></td>
+                    <td>56.30 m²</td> 
+                    <td class="right">1’100.00</td>
+                    <td class="right">110.00</td>
+                </tr>
+                
+                <tr>
+                    <td>A2</td>
+                    <td>1. OG</td> 
+                    <td><span>2.1. / 3,5er</span></td>
+                    <td>89.80 m²</td> 
+                    <td class="right">1’540.00</td>
+                    <td class="right">160.00</td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>2.2. / 2,5er</span></td>
+                    <td>75.00 m²</td> 
+                    <td class="right">1’270.00</td>
+                    <td class="right">130.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>2.3. / 4,5er</span></td>
+                    <td>112.90 m²</td> 
+                    <td class="right">1’790.00</td>
+                    <td class="right">210.00</td>
+                </tr>
+                
+                <tr>
+                    <td>A2</td>
+                    <td>2. OG</td> 
+                    <td><span>3.1. / 3,5er</span></td>
+                    <td>89.80 m²</td> 
+                    <td class="right">1’560.00</td>
+                    <td class="right">160.00</td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>3.2. / 2,5er</span></td>
+                    <td>75.00 m²</td> 
+                    <td class="right">1’300.00</td>
+                    <td class="right">130.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>3.3. / 4,5er</span></td>
+                    <td>112.90 m²</td> 
+                    <td class="right">1’810.00</td>
+                    <td class="right">210.00</td>
+                </tr>
+                
+                <tr>
+                    <td>A2</td>
+                    <td>3. OG</td> 
+                    <td><i>4.1. / 3,5er</i></td>
+                    <td><i>89.80 m²</i></td> 
+                    <td class="right"><i>reserviert</i></td>
+                    <td class="right"><i>reserviert</i></td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>4.2. / 2,5er</span></td>
+                    <td>75.00 m²</td> 
+                    <td class="right">1’330.00</td>
+                    <td class="right">130.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>4.3. / 4,5er</span></td>
+                    <td>112.90 m²</td> 
+                    <td class="right">1’830.00</td>
+                    <td class="right">210.00</td>
+                </tr>
+                
+                <tr>
+                    <td>A2</td>
+                    <td>4. OG</td> 
+                    <td><span>5.1. / 3,5er</span></td>
+                    <td>89.80 m²</td> 
+                    <td class="right">1’610.00</td>
+                    <td class="right">160.00</td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>5.2. / 2,5er</span></td>
+                    <td>75.00 m²</td> 
+                    <td class="right">1’360.00</td>
+                    <td class="right">130.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>5.3. / 4,5er</span></td>
+                    <td>112.90 m²</td> 
+                    <td class="right">1’850.00</td>
+                    <td class="right">210.00</td>
+                </tr>
+                
+                <tr>
+                    <td>A2</td>
+                    <td>5. OG</td> 
+                    <td><span>6.1. / 3,5er</span></td>
+                    <td>89.80 m²</td> 
+                    <td class="right">1’690.00</td>
+                    <td class="right">160.00</td>
+                </tr> 
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><span>6.2. / 2,5er</span></td>
+                    <td>75.00 m²</td> 
+                    <td class="right">1’410.00</td>
+                    <td class="right">130.00</td>
+                </tr>
+                <tr>
+                    <td class="nol"></td>
+                    <td class="nol"></td>
+                    <td><i>6.3. / 4,5er</i></td>
+                    <td><i>112.90 m²</i></td> 
+                    <td class="right"><i>reserviert</i></td>
+                    <td class="right"><i>reserviert</i></td>
+                </tr>
+                
+                <tr><td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="right"><a href="miete"><span>&#8595; Grundrisse PDF</span></a></td>
+                </tr>
+            </table>
+        </div>
+    </article>
+    
     <div class="footer">
         <ul>
             <li><a href="lage">Lage</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
-            <li><a href="preise">Preise</a></li>
+            <li><a href="preise">Miete</a></li>
             <li><a href="kontakt">Kontakt</a></li>     
         </ul>   
     </div>
-    
-    
-<!--
-    <div class="form">
-        <?php
-        if(isset($_POST['submit'])){
-            $name = htmlspecialchars(stripslashes(trim($_POST['name'])));
-            $vorname = htmlspecialchars(stripslashes(trim($_POST['vorname'])));
-            $subject = htmlspecialchars(stripslashes(trim($_POST['subject'])));
-            $email = htmlspecialchars(stripslashes(trim($_POST['email'])));
-            $message = htmlspecialchars(stripslashes(trim($_POST['message'])));
-            if(!preg_match("/^[A-Za-z .'-]+$/", $name)){
-                $name_error = 'Invalid name';
-            }
-            if(!preg_match("/^[A-Za-z .'-]+$/", $vorname)){
-                $vorname_error = 'Invalid name';
-            }
-            if(!preg_match("/^[A-Za-z .'-]+$/", $subject)){
-                $subject_error = 'Invalid subject';
-            }
-            if(!preg_match("/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/", $email)){
-                $email_error = 'Invalid email';
-            }
-            if(strlen($message) === 0){
-                $message_error = 'Your message should not be empty';
-            }
-        }
-        ?>
-    
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
-            <label for="name">Name:</label><br>
-            <input type="text" name="name">
-            <p><?php if(isset($name_error)) echo $name_error; ?></p>
-            
-            <label for="vorname">Vorname:</label><br>
-            <input type="text" name="vorname">
-            <p><?php if(isset($vorname_error)) echo $vorname_error; ?></p>
-            
-            <label for="subject">Subject:</label><br>
-            <input type="text" name="subject">
-            <p><?php if(isset($subject_error)) echo $subject_error; ?></p>
-            <label for="email">Email:</label><br>
-            <input type="text" name="email">
-            <p><?php if(isset($email_error)) echo $email_error; ?></p>
-            <label for="message">Message:</label><br>
-            <textarea name="message"></textarea>
-            <p><?php if(isset($message_error)) echo $message_error; ?></p>
-            <input type="submit" name="submit" value="Submit">
-            <?php 
-            if(isset($_POST['submit']) && !isset($name_error) && !isset($subject_error) && !isset($email_error) && !isset($message_error)){
-                $to = 'ivoschwizer@gmail.com'; // edit here
-                $body = " Name: $name\n E-mail: $email\n Message:\n $message";
-                if(mail($to, $subject, $body)){
-                    echo '<p style="color: green">Message sent</p>';
-                }else{
-                    echo '<p>Error occurred, please try again later</p>';
-                }
-            }
-            ?>
-        </form>
-    </div>
-    
-    -->
  
     
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>

@@ -82,7 +82,7 @@
         </div>
     </nav>
     
-    <article class="article-grundrisse top">
+    <article class="article-grundrisse topg">
         <div class="article-grundrisse-left">
             <h2>
                 Obergeschoss<br><span>Haus A1 / A2 / A4</span>

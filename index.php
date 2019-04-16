@@ -64,7 +64,7 @@
             <ul>
                 <li><a href="lage">Lage</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
-                <li><a href="preise">Preis</a></li>
+                <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
                 <a class="logo-weiss" href="index" target="_top">
                     <svg version="1.1" id="adlerlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 303 153.8" style="enable-background:new 0 0 303 153.8;" xml:space="preserve">
@@ -84,6 +84,15 @@
     
     <div class="headercontainer">
             <div class="headerimg"></div>
+            <div class="minergie">
+                <img alt="minergie-logo" src="img/minergie_logo.svg" >
+            </div>
+            <div class="headertext">
+                <h1>
+                    Bezug ab Frühjahr 2020, pauschale Nebenkosten
+                </h1>
+            </div>
+        
         </div>
     
     <article class="article-projekt">
@@ -114,7 +123,7 @@
         <ul>
             <li><a href="lage">Lage</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
-            <li><a href="preise">Preise</a></li>
+            <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
             <li><a href="kontakt">Kontakt</a></li>     
         </ul>   
     </div>

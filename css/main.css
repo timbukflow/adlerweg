@@ -247,6 +247,28 @@ button:focus {
     background-image: url("../img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-luftbild.jpg");
 }
 
+.minergie {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.minergie img {
+    padding: 20px;
+    width: 200px;
+}
+
+.headertext {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #A52340; 
+}
+
+.headertext h1 {
+    color: #fff;
+}
 
 /*---------------------------------- 
     header nav
@@ -493,7 +515,7 @@ button:focus {
     artikle grundrisse 
 -----------------------------------*/
 
-.top {
+.topg {
     margin-top: 100px;
 }
 
@@ -585,16 +607,15 @@ tr:hover {
     artikle miete 
 -----------------------------------*/
 
-.top {
-    margin-top: 100px;
-}
-
 .article-miete-container {
     position: relative;
     overflow: hidden;
-    padding-top: 100px;
     margin: 0 10%;
     margin-bottom: 100px;
+}
+
+.top {
+    margin-top: 150px;
 }
 
 .article-grundrisse-left {
