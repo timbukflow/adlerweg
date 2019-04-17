@@ -20,12 +20,14 @@ $(document).ready(function () {
             $('#navburger').css('margin', '22px 0px');
             $('h1.header').css('fontSize', '20px');
             $('.logocontainer').css('padding', '14px 30px');
+            $('.phone, .mail').css('margin', '18px 40px 18px 0px');
         }   
         else {
             $('.logo').css('width', '130px');
             $('#navburger').css('margin', '28px 0px');
             $('h1.header').css('fontSize', '24px');
             $('.logocontainer').css('padding', '22px 45px');
+            $('.phone, .mail').css('margin', '24px 40px 24px 0px');
         }
     });
 

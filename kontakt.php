@@ -40,7 +40,7 @@
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-
+<!--
     <nav id="navcontainer" >  
         <div class="logocontainer">
             <a href="index" target="_top">
@@ -61,7 +61,7 @@
             <!--<div class="phone">
                 <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-phone.svg">
             </div>-->
-        </div>
+    <!--    </div>
         <div class="nav">
             <ul>
                 <li><a href="lage">Lage</a></li>
@@ -82,118 +82,33 @@
                 </a>
             </ul>
         </div>
-    </nav>
-    
-    <div class="headercontainer">
-            <div class="headerimg"></div>
-            <div class="minergie">
-                <img alt="minergie-logo" src="img/minergie_logo.svg" >
-                <h1 class="red">
-                    Bezug ab Frühjahr 2020
-                </h1>
-                <h1>
-                    Pauschale Nebenkosten
-                </h1>
-            </div>
-            
-        
-        </div>
-    
-    <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
-        <h1 class="headline-left">
-            An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
-        </h1>
-        <h4>3</h4>
-    </article>
-    
-    <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
-        <h1 class="headline-right">
-            In diesen <span>51</span> gemütlichen Wohnungen beginnt ein neuer Lebensabschnitt, der für Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verfügt über ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg.
-        </h1>
-        <h4 class="right">51</h4>
-    </article>
-    
-     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
-        <h1 class="headline-left">
-            Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und Türen, die von der Decke bis zum Boden reichen, noch mehr an Grösse gewinnt. Mit modernen Flügeltüren zum <span>2.8m</span> tiefen Balkon, lässt sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
-        </h1>
-        <h4>2.8</h4>
-    </article>
-    
-    <div class="footer">
-        <ul>
-            <li><a href="lage">Lage</a></li>
-            <li><a href="grundrisse">Grundrisse</a></li>
-            <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
-            <li><a href="kontakt">Kontakt</a></li>     
-        </ul>   
-    </div>
-    
-    
-<!--
-    <div class="form">
-        <?php
-        if(isset($_POST['submit'])){
-            $name = htmlspecialchars(stripslashes(trim($_POST['name'])));
-            $vorname = htmlspecialchars(stripslashes(trim($_POST['vorname'])));
-            $subject = htmlspecialchars(stripslashes(trim($_POST['subject'])));
-            $email = htmlspecialchars(stripslashes(trim($_POST['email'])));
-            $message = htmlspecialchars(stripslashes(trim($_POST['message'])));
-            if(!preg_match("/^[A-Za-z .'-]+$/", $name)){
-                $name_error = 'Invalid name';
-            }
-            if(!preg_match("/^[A-Za-z .'-]+$/", $vorname)){
-                $vorname_error = 'Invalid name';
-            }
-            if(!preg_match("/^[A-Za-z .'-]+$/", $subject)){
-                $subject_error = 'Invalid subject';
-            }
-            if(!preg_match("/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/", $email)){
-                $email_error = 'Invalid email';
-            }
-            if(strlen($message) === 0){
-                $message_error = 'Your message should not be empty';
-            }
-        }
-        ?>
-    
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
-            <label for="name">Name:</label><br>
-            <input type="text" name="name">
-            <p><?php if(isset($name_error)) echo $name_error; ?></p>
-            
-            <label for="vorname">Vorname:</label><br>
-            <input type="text" name="vorname">
-            <p><?php if(isset($vorname_error)) echo $vorname_error; ?></p>
-            
-            <label for="subject">Subject:</label><br>
-            <input type="text" name="subject">
-            <p><?php if(isset($subject_error)) echo $subject_error; ?></p>
-            <label for="email">Email:</label><br>
-            <input type="text" name="email">
-            <p><?php if(isset($email_error)) echo $email_error; ?></p>
-            <label for="message">Message:</label><br>
-            <textarea name="message"></textarea>
-            <p><?php if(isset($message_error)) echo $message_error; ?></p>
-            <input type="submit" name="submit" value="Submit">
-            <?php 
-            if(isset($_POST['submit']) && !isset($name_error) && !isset($subject_error) && !isset($email_error) && !isset($message_error)){
-                $to = 'ivoschwizer@gmail.com'; // edit here
-                $body = " Name: $name\n E-mail: $email\n Message:\n $message";
-                if(mail($to, $subject, $body)){
-                    echo '<p style="color: green">Message sent</p>';
-                }else{
-                    echo '<p>Error occurred, please try again later</p>';
-                }
-            }
-            ?>
+    </nav> 
+  -->  
+    <?php include('form.php'); ?>
+    <div class="container">  
+        <form id="contact" action="<?= $_SERVER["PHP_SELF"]; ?>" method="post">
+          <h3>Quick Contact</h3>
+          <fieldset>
+            <input placeholder="Your name" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
+            <span class="error"><?= $name_error ?></span>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="text" name="email" value="<?= $email ?>" tabindex="2" >
+            <span class="error"><?= $email_error ?></span>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number" type="text" name="phone" value="<?= $phone ?>" tabindex="3" >
+            <span class="error"><?= $phone_error ?></span>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your Message Here...." type="text" name="message" value="<?= $message ?>" tabindex="5" ></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+            <div class="success"><?= $success; ?></div>
         </form>
     </div>
-    
-    -->
  
     
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
