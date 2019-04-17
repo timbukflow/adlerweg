@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         $to = "ivoschwizer@gmail.com";
         $subject = "Contact From Submit";
-        if (mail($to, $subject, $message)){
+        if (mail($to, $subject, $message_body)){
             $success = "Message sent, thank you for contacting us!";
             $name = $email = $phone = $message = $url = "";
         }
