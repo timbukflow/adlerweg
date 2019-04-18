@@ -1,6 +1,6 @@
 <?php
 
-$name_error = $vorname_error = $email_error = $telefon_error = "";
+$name_error = $vorname_error = $email_error = $telefon_error = $mitteilung_error = "";
 $name = $vorname = $email = $telefon = $mitteilung = $success = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     
     if (empty($_POST["mitteilung"])) {
-        $mitteilung = "";
+        $mitteilung_error = "Bitte schreiben Sie uns eine Nachricht";
     } else {
         $mitteilung = test_input($_POST["mitteilung"]);
     }

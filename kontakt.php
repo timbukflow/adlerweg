@@ -89,19 +89,19 @@
         <form id="contact" action="<?= $_SERVER["PHP_SELF"]; ?>" method="post">
             <h3>Kontakt</h3>
             <fieldset>
-                <input placeholder="Name" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
+                <input placeholder="Name&#42;" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
                 <span class="error"><?= $name_error ?></span>
             </fieldset>
             <fieldset>
-                <input placeholder="Vorname" type="text" name="vorname" value="<?= $vorname ?>" tabindex="2">
+                <input placeholder="Vorname&#42;" type="text" name="vorname" value="<?= $vorname ?>" tabindex="2">
                 <span class="error"><?= $vorname_error ?></span>
             </fieldset>
             <fieldset>
-                <input placeholder="Ihre Email Adresse" type="text" name="email" value="<?= $email ?>" tabindex="3" >
+                <input placeholder="Email&#42;" type="text" name="email" value="<?= $email ?>" tabindex="3" >
                 <span class="error"><?= $email_error ?></span>
             </fieldset>
             <fieldset>
-                <input placeholder="Telefon" type="text" name="telefon" value="<?= $telefon ?>" tabindex="4" >
+                <input placeholder="Telefon&#42;" type="text" name="telefon" value="<?= $telefon ?>" tabindex="4" >
                 <span class="error"><?= $telefon_error ?></span>
             </fieldset>
             <fieldset>
