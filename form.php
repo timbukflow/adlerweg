@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name_error = "Name ist erforderlich";
     } else {
         $name = test_input($_POST["name"]);
-        if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+        if (!preg_match("/^[a-zA-Z-ÖöÄäÜüéè ]*$/",$name)) {
             $name_error = "Es sind nur Buchstaben erlaubt";
         }
     }
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $vorname_error = "Vorname ist erforderlich";
     } else {
         $vorname = test_input($_POST["vorname"]);
-        if (!preg_match("/^[a-zA-Z ]*$/",$vorname)) {
+        if (!preg_match("/^[a-zA-Z-ÖöÄäÜüéè ]*$/",$vorname)) {
             $vorname_error = "Es sind nur Buchstaben erlaubt";
         }
     }
@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $telefon = test_input($_POST["telefon"]);
         if (!preg_match("/(\d{3})\s(\d{3})\s(\d{2})\s(\d{2})/",$telefon)) {
-            $telefon_error = "Bitte geben Sie die Telefonnummer wie folgt an 071 123 45 67";
+            $telefon_error = "Telefonnummer mit folgenden Abständen eintragen 071 000 00 00";
         }
     }
     
