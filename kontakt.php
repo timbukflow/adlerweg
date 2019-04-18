@@ -105,7 +105,7 @@
                 <span class="error"><?= $telefon_error ?></span>
             </fieldset>
             <fieldset>
-                <textarea placeholder="Schreibe hier deine Mitteilung...." type="text" name="mitteilung" value="<?= $mitteilung ?>" tabindex="5" ></textarea>
+                <textarea placeholder="Schreiben Sie uns eine Nachricht...." type="text" name="mitteilung" tabindex="5" ><?php echo $mitteilung;?></textarea>
                 <span class="error"><?= $mitteilung_error ?></span>
             </fieldset>
             <fieldset>

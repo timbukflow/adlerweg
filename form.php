@@ -35,8 +35,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $telefon_error = "Telefon ist erforderlich";
     } else {
         $telefon = test_input($_POST["telefon"]);
-        if (!preg_match("/^(\d[\s-]?)?[\(\[\s-]{0,2}?\d{3}[\)\]\s-]{0,2}?\d{3}[\s-]?\d{4}$/i",$telefon)) {
-            $telefon_error = "Diese Telefonnummer ist nicht korrekt";
+        if (!preg_match("/(\d{3})\s(\d{3})\s(\d{2})\s(\d{2})/",$telefon)) {
+            $telefon_error = "Bitte geben Sie die Telefonnummer wie folgt an 071 123 45 67";
         }
     }
     
@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mitteilung = test_input($_POST["mitteilung"]);
     }
     
-    if ($name_error == "" and $vorname_error == "" and $email_error == "" and $telefon_error == "" ){
+    if ($name_error == "" and $vorname_error == "" and $email_error == "" and $telefon_error == "" and $mitteilung_error == "" ){
         $message_body = "";
         unset($_POST["submit"]);
         foreach($_POST as $key => $value){
