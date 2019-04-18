@@ -36,11 +36,11 @@
     <link href="https://fonts.googleapis.com/css?family=Amiri:400,700" rel="stylesheet">
 </head>
 
-<body>
+<body class="kontakt">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-<!--
+
     <nav id="navcontainer" >  
         <div class="logocontainer">
             <a href="index" target="_top">
@@ -53,41 +53,22 @@
                 <span></span>
                 <span></span>    
             </div>
-            <div class="mail">
-                <a href="mailto:info@grafag-sg.ch?Subject=Adlerweg%20Wittenbach" target="_top"><img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mail.svg"></a>
-            </div>
-            
-            <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
-            <!--<div class="phone">
-                <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-phone.svg">
-            </div>-->
-    <!--    </div>
+        </div>
         <div class="nav">
             <ul>
+                <li><a href="index">Projekt</a></li>
                 <li><a href="lage">Lage</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
                 <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
-                <a class="logo-weiss" href="index" target="_top">
-                    <svg version="1.1" id="adlerlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 303 153.8" style="enable-background:new 0 0 303 153.8;" xml:space="preserve">
-                        <path class="a" d="M151.5,98.1c-48.9-0.2-46.8,27-46.8,27S127.1,140.6,151.5,98.1"/>
-                        <path class="c" d="M151.5,98.1c24.3,42.5,46.8,27,46.8,27S200.4,98,151.5,98.1"/>
-                        <path class="b" d="M151.5,98.1c-24.6,42.3,0,54,0,54S176.1,140.4,151.5,98.1"/>
-                        <path class="st0" d="M151.5,98.1c0,0,50.1,0,75,0c37.5,0,37.5-30,37.5-30"/>
-                        <path class="st0" d="M151.7,2.1c0,0-40.8,39.8-0.3,63C191.9,41.9,151.7,2.1,151.7,2.1z"/>
-                        <path class="st0" d="M151.5,65.1L151.5,65.1c0,0,37.5-27,75-27c24.9,0,75,0,75,0s0,30-37.5,30h-37.5c0,0-12.6,0-37.5,0 c-37.5,0-37.5,30-37.5,30s12.6,0,37.5,0c37.5,0,37.5-30,37.5-30"/>
-                        <path class="st0" d="M39,68.1c0,0,0,30,37.5,30c24.9,0,75,0,75,0"/>
-                        <path class="st0" d="M76.5,68.1c0,0,0,30,37.5,30c24.9,0,37.5,0,37.5,0s0-30-37.5-30C89.1,68.1,76.5,68.1,76.5,68.1H39 c-37.5,0-37.5-30-37.5-30s50.1,0,75,0c37.5,0,75,27,75,27l0,0"/>
-                    </svg>
-                </a>
             </ul>
         </div>
-    </nav> 
-  -->  
+    </nav>
+
     <?php include('form.php'); ?>
     <div class="container">  
         <form id="contact" action="<?= $_SERVER["PHP_SELF"]; ?>" method="post">
-            <h3>Kontakt</h3>
+            <h1>Kontaktformular</h1>
             <fieldset>
                 <input placeholder="Name&#42;" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
                 <span class="error"><?= $name_error ?></span>
@@ -114,7 +95,62 @@
             <div class="success"><?= $success; ?></div>
         </form>
     </div>
- 
+    
+    <div class="container-kontakt">
+        <h1>Kontakt</h1>
+        <p>
+            <span>Architektur<br>Bauleitung<br>Vermarktung<br></span>
+            Graf GU AG<br>
+            Postfach 18<br>
+            Oberer Graben 16<br>
+            9000 St.Gallen<br><br>
+            071 222 92 11<br>
+            info@grafag-sg.ch<br>
+            <a href="https://www.grafag-sg.ch">www.grafag-sg.ch</a><br><br>
+            <span>Eigentümer<br></span>
+            Pensionskasse AR<br>
+            Kasernenstrasse 6<br>
+            9102 Herisau<br>
+            <a href="https://www.pkar.ch">www.pkar.ch</a><br><br>
+            <span class="impressum togglelink" data-toggle="#impressum">Konditionen</span>
+        </p>
+        <p id="impressum">
+            Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus sämtlichen Plänen, Zeichnungen, Darstellungen, Möblierungen, Visualisierungen oder Beschreibungen können keinerlei Ansprüche abgeleitet werden. Insbesondere kommt den Plänen keine gesetzliche Wirkung von Grundbuchplänen zu. Ausführungsbedingte Änderungen, Anpassungen und/oder Massabweichungen können vorkommen und bleiben jederzeit ausdrücklich vorbehalten. Sämtliche Massangaben sind Circa-Masse.
+        </p>
+    </div>
+    
+    <div class="container-kontakt">
+        <h1>Konzept</h1>
+        <p>
+            <span>Design &amp; Interaction<br></span>
+            Schwizer &amp; Schlatter GmbH<br>
+            Davidstrasse 45<br>
+            9000 St.Gallen<br>
+            <a href="https://www.schwizerschlatter.com">www.schwizerschlatter.com</a><br><br>
+            
+            <span>Visualisierungen<br></span>    
+            Business Images AG<br>
+            Bruggerstrasse 37b<br>
+            5400 Baden<br>
+            <a href="https://www.businessimages.ch">www.businessimages.ch</a><br><br>
+            
+            <span>Fotografie<br></span>
+            Marc Bollhalder<br>
+            Schalkhusenstrasse 10,<br>
+            9533 Kirchberg<br>
+            <a href="https://www.mbphotography.ch">www.mbphotography.ch</a><br>
+        </p>
+        
+    </div>
+    
+    <div class="footer">
+        <ul>
+            <li><a href="index">Projekt</a></li>
+            <li><a href="lage">Lage</a></li>
+            <li><a href="grundrisse">Grundrisse</a></li>
+            <li><a href="preise">Miete</a></li>   
+        </ul>   
+    </div>
     
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

@@ -31,6 +31,18 @@ $(document).ready(function () {
         }
     });
 
+    ///////////////// impressum ///////////////// 
+
+    $('.togglelink').click(function() {
+        var totoggle = $(this).attr("data-toggle");
+        $(totoggle).toggle(1000);
+        
+        if ($(totoggle).is(":visible")) {
+            $('html,body').animate({scrollTop:$(totoggle).offset().top}, 1000);
+        }     
+    });
+
+    
     ///////////////// fade in ///////////////// 
     
         $(window).scroll(function() {
