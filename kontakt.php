@@ -106,6 +106,7 @@
             </fieldset>
             <fieldset>
                 <textarea placeholder="Schreibe hier deine Mitteilung...." type="text" name="mitteilung" value="<?= $mitteilung ?>" tabindex="5" ></textarea>
+                <span class="error"><?= $mitteilung_error ?></span>
             </fieldset>
             <fieldset>
                 <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Abschicken</button>
