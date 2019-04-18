@@ -1,43 +1,52 @@
 <?php
 
-$name_error = $email_error = $phone_error = $url_error = "";
-$name = $email = $phone = $message = $url = $success = "";
+$name_error = $vorname_error = $email_error = $telefon_error = "";
+$name = $vorname = $email = $telefon = $mitteilung = $success = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
-        $name_error = "Name is required";
+        $name_error = "Name ist erforderlich";
     } else {
         $name = test_input($_POST["name"]);
         if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-            $name_error = "only letters and white space allowed";
+            $name_error = "Es sind nur Buchstaben erlaubt";
+        }
+    }
+    
+    if (empty($_POST["vorname"])) {
+        $vorname_error = "Vorname ist erforderlich";
+    } else {
+        $vorname = test_input($_POST["vorname"]);
+        if (!preg_match("/^[a-zA-Z ]*$/",$vorname)) {
+            $vorname_error = "Es sind nur Buchstaben erlaubt";
         }
     }
     
     if (empty($_POST["email"])) {
-        $email_error = "Email is required";
+        $email_error = "Email ist erforderlich";
     } else {
         $email = test_input($_POST["email"]);
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $email_error = "Invalid email format";
+            $email_error = "Diese Email Adresse ist nicht korrekt";
         }
     }
     
-    if (empty($_POST["phone"])) {
-        $phone_error = "Phone is required";
+    if (empty($_POST["telefon"])) {
+        $telefon_error = "Telefon ist erforderlich";
     } else {
-        $phone = test_input($_POST["phone"]);
-        if (!preg_match("/^(\d[\s-]?)?[\(\[\s-]{0,2}?\d{3}[\)\]\s-]{0,2}?\d{3}[\s-]?\d{4}$/i",$phone)) {
-            $phone_error = "Invalid phone number";
+        $telefon = test_input($_POST["telefon"]);
+        if (!preg_match("/^(\d[\s-]?)?[\(\[\s-]{0,2}?\d{3}[\)\]\s-]{0,2}?\d{3}[\s-]?\d{4}$/i",$telefon)) {
+            $telefon_error = "Diese Telefonnummer ist nicht korrekt";
         }
     }
     
-    if (empty($_POST["message"])) {
-        $message = "";
+    if (empty($_POST["mitteilung"])) {
+        $mitteilung = "";
     } else {
-        $message = test_input($_POST["message"]);
+        $mitteilung = test_input($_POST["mitteilung"]);
     }
     
-    if ($name_error == "" and $email_error == "" and $phone_error == "" ){
+    if ($name_error == "" and $vorname_error == "" and $email_error == "" and $telefon_error == "" ){
         $message_body = "";
         unset($_POST["submit"]);
         foreach($_POST as $key => $value){
@@ -45,10 +54,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         
         $to = "ivoschwizer@gmail.com";
-        $subject = "Contact From Submit";
+        $subject = "Adlerweg Wittenbach Anfrage";
         if (mail($to, $subject, $message_body)){
-            $success = "Message sent, thank you for contacting us!";
-            $name = $email = $phone = $message = $url = "";
+            $success = "Ihre Anfrage wurde erfolgreich gesendet, danke für Ihr Interesse.";
+            $name = $vorname = $email = $telefon = $mitteilung = "";
         }
     }
 }
