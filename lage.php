@@ -53,31 +53,19 @@
                 <span></span>
                 <span></span>    
             </div>
-            <div class="phone">
-                <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-phone.svg">
-            </div>
             <div class="mail">
-                <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mail.svg">
+                <a href="kontakt">
+                    <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mail.svg">
+                </a>
             </div>
         </div>
         <div class="nav">
             <ul>
                 <li><a href="index">Projekt</a></li>
+                <li><a href="lage">Lage</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
-                <li><a href="preise">Preis</a></li>
+                <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
-                <a class="logo-weiss" href="index" target="_top">
-                    <svg version="1.1" id="adlerlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 303 153.8" style="enable-background:new 0 0 303 153.8;" xml:space="preserve">
-                        <path class="a" d="M151.5,98.1c-48.9-0.2-46.8,27-46.8,27S127.1,140.6,151.5,98.1"/>
-                        <path class="c" d="M151.5,98.1c24.3,42.5,46.8,27,46.8,27S200.4,98,151.5,98.1"/>
-                        <path class="b" d="M151.5,98.1c-24.6,42.3,0,54,0,54S176.1,140.4,151.5,98.1"/>
-                        <path class="st0" d="M151.5,98.1c0,0,50.1,0,75,0c37.5,0,37.5-30,37.5-30"/>
-                        <path class="st0" d="M151.7,2.1c0,0-40.8,39.8-0.3,63C191.9,41.9,151.7,2.1,151.7,2.1z"/>
-                        <path class="st0" d="M151.5,65.1L151.5,65.1c0,0,37.5-27,75-27c24.9,0,75,0,75,0s0,30-37.5,30h-37.5c0,0-12.6,0-37.5,0 c-37.5,0-37.5,30-37.5,30s12.6,0,37.5,0c37.5,0,37.5-30,37.5-30"/>
-                        <path class="st0" d="M39,68.1c0,0,0,30,37.5,30c24.9,0,75,0,75,0"/>
-                        <path class="st0" d="M76.5,68.1c0,0,0,30,37.5,30c24.9,0,37.5,0,37.5,0s0-30-37.5-30C89.1,68.1,76.5,68.1,76.5,68.1H39 c-37.5,0-37.5-30-37.5-30s50.1,0,75,0c37.5,0,75,27,75,27l0,0"/>
-                    </svg>
-                </a>
             </ul>
         </div>
     </nav>
@@ -89,7 +77,7 @@
     <article class="article-projekt">
         <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-01.jpg" >
         <h1 class="headline-left-lage">
-            <span>Lage Wittenbach</span><br><br>
+            <span>Wittenbach</span><br><br>
             Die Wohngemeinde Wittenbach ist dank ihrer ausgesprochen attraktiven Lage zwischen St.Gallen und Bodensee nicht nur bei Familien sehr beliebt; Bewohner aller Altersgruppen erfreuen sich der vielen Möglichkeiten wie dem Naherholungsgebiet oder dem schnellen Anschluss mit öffentlichen oder privaten Verkehrsmitteln zur Stadt.
         </h1>
     </article>
@@ -105,8 +93,8 @@
     <article class="article-projekt">
         <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss.svg" >
         <h1 class="headline-left-lage">
-            <span>Lage Wittenbach</span><br><br>
-            Die Wohngemeinde Wittenbach ist dank ihrer ausgesprochen attraktiven Lage zwischen St.Gallen und Bodensee nicht nur bei Familien sehr beliebt; Bewohner aller Altersgruppen erfreuen sich der vielen Möglichkeiten wie dem Naherholungsgebiet oder dem schnellen Anschluss mit öffentlichen oder privaten Verkehrsmitteln zur Stadt.
+            <span>Adlerweg</span><br><br>
+            Die Wohnungen am Adlerweg liegen parallel zur Oedenhofstrasse und mitten im Dorfkern. In gehdistanz zu ihrem neuen Zuhause liegen: Bahnhof Wittenbach, Stadtbus, Post, Raiffeisenbank, Restaurant, Zahnarzt, Arzt und verschiedene Einkaufsmöglichkeiten.
         </h1>
     </article>
     
@@ -115,7 +103,7 @@
         <ul>
             <li><a href="index">Projekt</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
-            <li><a href="preise">Preise</a></li>
+            <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
             <li><a href="kontakt">Kontakt</a></li>     
         </ul>   
     </div>
