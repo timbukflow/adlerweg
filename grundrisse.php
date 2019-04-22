@@ -73,44 +73,34 @@
     <article class="article-grundrisse topg">
         <div class="article-grundrisse-left">
             <h2>
-                Obergeschoss<br><span>Haus A1 / A2 / A4</span>
+                Obergeschoss<br><span>Adlerweg 1, 2, 4</span>
             </h2>
             <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-og.svg" >
             <table style="width:100%">   
-                <tr>    
-                    <th>Haus</th>    
-                    <th>Ebene</th>  
+                <tr>      
                     <th>Wohnung</th>
-                    <th>Fläche</th>
+                    <th class="l">Fläche</th>
                 </tr>   
-                <tr>   
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
-                    <td><span>1 / 3,5er</span></td> 
-                    <td>89.80 m²</td>
+                <tr>
+                    <td><span><b>1</b> / 3,5er</span></td> 
+                    <td class="l">89.80 m²</td>
                 </tr> 
-                <tr> 
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
-                    <td><span>2 / 2,5er</span></td> 
-                    <td>75.00 m²</td>
+                <tr>
+                    <td><span><b>2</b> / 2,5er</span></td> 
+                    <td class="l">75.00 m²</td>
                 </tr>
                 <tr> 
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
-                    <td><span>3 / 4,5er</span></td> 
-                    <td>112.90 m²</td>
+                    <td><span><b>3</b> / 4,5er</span></td> 
+                    <td class="l">112.90 m²</td>
                 </tr>
                 <tr> 
-                    <td><a href="miete"><span>&#8594; Miete</span></a></td>
-                    <td></td>
-                    <td><a href="miete"><span>&#8595; Grundrisse PDF</span></a></td>
-                    <td></td>
+                    <td><a href="miete"><span>&#8595; Preisliste</span></a></td>
+                    <td class="l"><a href="miete"><span>&#8595; Grundrisse PDF</span></a></td>
                 </tr>
             </table>
         </div>
         <div class="article-grundrisse-right">
-            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss-eg-b2.svg" >
+            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss-eg-b2.png" >
         </div>
     </article>
     
@@ -122,34 +112,29 @@
             <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-eg-1.svg" >
             <table style="width:100%">   
                 <tr>    
-                    <th>Haus</th>    
                     <th>Ebene</th>  
                     <th>Wohnung</th>
                     <th>Fläche</th>
                 </tr>   
                 <tr>   
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
-                    <td><span>1 / 3,5er</span></td> 
+                    <td>OG</td>
+                    <td><span><b>1</b> / 3,5er</span></td> 
                     <td>89.80 m²</td>
                 </tr> 
                 <tr> 
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
+                    <td>OG</td>
                     <td><span>2 / 2,5er</span></td> 
                     <td>75.00 m²</td>
                 </tr>
                 <tr> 
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
+                    <td>OG</td>
                     <td><span>3 / 4,5er</span></td> 
                     <td>112.90 m²</td>
                 </tr>
                 <tr> 
-                    <td><a href="miete"><span>&#8594; Miete</span></a></td>
+                    <td><a href="miete"><span>&#8595; Preisliste</span></a></td>
                     <td></td>
                     <td><a href="miete"><span>&#8595; Grundrisse PDF</span></a></td>
-                    <td></td>
                 </tr>
             </table>
         </div>

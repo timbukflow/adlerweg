@@ -551,12 +551,12 @@ button:focus {
 .article-grundrisse {
     position: relative;
     overflow: hidden;
-    padding-top: 100px;
-    background-color: #ededed;
+    padding-top: 60px;
+    background-color: #f8f8f8;
 }
 
 .article-grundrisse-left {
-    width: 40%;
+    width: 30%;
     margin: 0px 5%;
     position: relative;
     float: left;
@@ -564,20 +564,22 @@ button:focus {
 }
 
 .article-grundrisse-left img {
-    margin: 70px 0px;
-    width: 70%;
+    margin: 50px 0px;
+    width: 80%;
 
 }
 
 .article-grundrisse-right {
-    width: 50%;
+    width: 60%;
     position: relative;
     float: left;
 }
 
 .article-grundrisse-right img {
-    margin: 10% 15%;
+    margin: 40px 17%;
     z-index: 2;
+    width: 66%;
+    position: relative;
 }
 
 /*---------------------------------- 
@@ -620,56 +622,12 @@ th, td {
     
 }
 
-.right {
+.l {
     text-align: right;
 }
 
 .nol {
     border: none;
-}
-
-tr:hover {
-    background-color: rgba(165, 35, 64, 0.2);
-}
-
-/*---------------------------------- 
-    artikle miete 
------------------------------------*/
-
-.article-miete-container {
-    position: relative;
-    overflow: hidden;
-    margin: 0 10%;
-    margin-bottom: 100px;
-}
-
-.top {
-    margin-top: 150px;
-}
-
-.article-grundrisse-left {
-    width: 40%;
-    margin: 0px 5%;
-    position: relative;
-    float: left;
-    text-align: center;
-}
-
-.article-grundrisse-left img {
-    margin: 70px 0px;
-    width: 70%;
-
-}
-
-.article-grundrisse-right {
-    width: 50%;
-    position: relative;
-    float: left;
-}
-
-.article-grundrisse-right img {
-    margin: 10% 15%;
-    z-index: 2;
 }
 
 
