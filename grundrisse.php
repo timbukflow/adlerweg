@@ -94,13 +94,13 @@
                     <td class="l">112.90 m²</td>
                 </tr>
                 <tr> 
-                    <td><a href="miete"><span>&#8595; Preisliste</span></a></td>
-                    <td class="l"><a href="miete"><span>&#8595; Grundrisse PDF</span></a></td>
+                    <td><a href="miete"><span>&#8595;</span> Preisliste</a></td>
+                    <td class="l"><a href="miete"><span>&#8595;</span> Grundrisse PDF</a></td>
                 </tr>
             </table>
         </div>
         <div class="article-grundrisse-right">
-            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss-eg-b2.png" >
+            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-og.png" >
         </div>
     </article>
     

@@ -576,9 +576,9 @@ button:focus {
 }
 
 .article-grundrisse-right img {
-    margin: 40px 17%;
+    margin: 80px 20%;
     z-index: 2;
-    width: 66%;
+    width: 60%;
     position: relative;
 }
 
