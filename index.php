@@ -112,7 +112,7 @@
             <li><a href="lage">Lage</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
             <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
-            <li><a href="kontakt">Kontakt</a></li>     
+            <li><a href="kontakt.php">Kontakt</a></li>     
         </ul>   
     </div>
  
