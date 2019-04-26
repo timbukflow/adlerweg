@@ -73,7 +73,7 @@
     <div class="headercontainer">
         <div class="headerimg"></div>
         <div class="minergie">
-            <img alt="minergie-logo" src="img/minergie_logo.svg" >
+            <img alt="minergie-logo" src="img/minergie_logo.svg" height="40" width="200" >
             <h1>
                 Pauschale Nebenkosten
             </h1>
