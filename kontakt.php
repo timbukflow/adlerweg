@@ -86,7 +86,7 @@
                 <span class="error"><?= $telefon_error ?></span>
             </fieldset>
             <fieldset>
-                <textarea placeholder="Schreiben Sie uns eine Nachricht...." type="text" name="mitteilung" tabindex="5" ><?php echo $mitteilung;?></textarea>
+                <textarea placeholder="Schreiben Sie uns eine Nachricht...." name="mitteilung" tabindex="5" ><?php echo $mitteilung;?></textarea>
                 <span class="error"><?= $mitteilung_error ?></span>
             </fieldset>
             <fieldset>
@@ -123,7 +123,7 @@
                 Konditionen
             </span>
             <span id="konditionen">
-                <br>Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus sämtlichen Plänen, Zeichnungen, Darstellungen, Möblierungen, Visualisierungen oder Beschreibungen können keinerlei Ansprüche abgeleitet werden. Insbesondere kommt den Plänen keine gesetzliche Wirkung von Grundbuchplänen zu. Ausführungsbedingte Änderungen, Anpassungen und/oder Massabweichungen können vorkommen und bleiben jederzeit ausdrücklich vorbehalten. Sämtliche Massangaben sind Circa-Masse.<br>
+                <br>Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus s&#228;mtlichen Pl&#228;nen, Zeichnungen, Darstellungen, M&#246;blierungen, Visualisierungen oder Beschreibungen k&#246;nnen keinerlei Ansprüche abgeleitet werden. Insbesondere kommt den Pl&#228;nen keine gesetzliche Wirkung von Grundbuchpl&#228;nen zu. Ausführungsbedingte &#196;nderungen, Anpassungen und/oder Massabweichungen k&#246;nnen vorkommen und bleiben jederzeit ausdrücklich vorbehalten. S&#228;mtliche Massangaben sind Circa-Masse.<br>
             </span>
             <span class="impressum togglelink" data-toggle="#impressum">
                 Impressum

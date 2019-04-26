@@ -84,9 +84,9 @@
     </div>
     
     <article class="article-projekt">
-        <h2 class="headline-left">
+        <h1 class="headline-left">
             An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
-        </h2>
+        </h1>
         <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
         <h4 class="three">3</h4>
     </article>
