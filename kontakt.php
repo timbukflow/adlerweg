@@ -12,22 +12,22 @@
     <meta name="google-site-verification" content="...folgt..." />
     
     <meta property="og:type" content="business.business">
-    <meta property="og:title" content="playstressaway">
-    <meta property="og:url" content="http://adlerweg.ch">
-    <meta property="business:contact_data:street_address" content="Schaffhauserstrasse 115">
-    <meta property="business:contact_data:locality" content="Kloten">
-    <meta property="business:contact_data:region" content="8302">
-    <meta property="business:contact_data:postal_code" content="8302">
+    <meta property="og:title" content="adlerweg-wittenbach">
+    <meta property="og:url" content="http://adlerweg.sg">
+    <meta property="business:contact_data:street_address" content="Oedenhofstrasse 11A">
+    <meta property="business:contact_data:locality" content="Wittenbach">
+    <meta property="business:contact_data:region" content="9300">
+    <meta property="business:contact_data:postal_code" content="9300">
     <meta property="business:contact_data:country_name" content="Switzerland">
     
-    <meta name="description" content="folgt">
+    <meta name="description" content="An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen 3 neue Mehrfamilienhäuser mit insgesamt 51 Mietwohnungen, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#005a32">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#A52340">
     <meta name="msapplication-TileColor" content="#fbfbfb">
     <meta name="theme-color" content="#ffffff">
 
@@ -59,7 +59,7 @@
                 <li><a href="index">Projekt</a></li>
                 <li><a href="lage">Lage</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
-                <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
+                <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
             </ul>
         </div>
@@ -98,7 +98,7 @@
     
     <div class="container-kontakt">
         <h1>Kontakt</h1>
-        <img alt="adlerweg-wittenbach-logo" src="img/logo-graf-gu.png" >
+        <img alt="logo-graf-gu" src="img/logo-graf-gu.png" >
         <p>
             <!--<span>Architektur<br>Bauleitung<br>Vermarktung<br></span>-->
             Graf GU AG<br>
@@ -113,7 +113,7 @@
     
     <div class="container-kontakt">
         <h1>Eigentümer</h1>
-        <img alt="adlerweg-wittenbach-logo" src="img/pkar.png" >
+        <img alt="pkar-logo" src="img/pkar.png" >
         <p>
             Pensionskasse AR<br>
             Kasernenstrasse 6<br>
@@ -152,7 +152,7 @@
             <li><a href="index">Projekt</a></li>
             <li><a href="lage">Lage</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
-            <li><a href="preise">Miete</a></li>   
+            <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>   
         </ul>   
     </div>
     
@@ -161,13 +161,6 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <!--<script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
 </body>
 
 </html>

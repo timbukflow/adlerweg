@@ -2,7 +2,7 @@
 <html class="no-js" lang="de-CH">
 
 <head>
-   <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>adlerweg</title>
     <meta name="robots" content="all">
@@ -12,22 +12,22 @@
     <meta name="google-site-verification" content="...folgt..." />
     
     <meta property="og:type" content="business.business">
-    <meta property="og:title" content="playstressaway">
-    <meta property="og:url" content="http://adlerweg.ch">
-    <meta property="business:contact_data:street_address" content="Schaffhauserstrasse 115">
-    <meta property="business:contact_data:locality" content="Kloten">
-    <meta property="business:contact_data:region" content="8302">
-    <meta property="business:contact_data:postal_code" content="8302">
+    <meta property="og:title" content="adlerweg-wittenbach">
+    <meta property="og:url" content="http://adlerweg.sg">
+    <meta property="business:contact_data:street_address" content="Oedenhofstrasse 11A">
+    <meta property="business:contact_data:locality" content="Wittenbach">
+    <meta property="business:contact_data:region" content="9300">
+    <meta property="business:contact_data:postal_code" content="9300">
     <meta property="business:contact_data:country_name" content="Switzerland">
     
-    <meta name="description" content="folgt">
+    <meta name="description" content="An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen 3 neue Mehrfamilienhäuser mit insgesamt 51 Mietwohnungen, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#005a32">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#A52340">
     <meta name="msapplication-TileColor" content="#fbfbfb">
     <meta name="theme-color" content="#ffffff">
 
@@ -55,7 +55,7 @@
             </div>
             <div class="mail">
                 <a href="kontakt">
-                    <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mail.svg">
+                    <img alt="adlerweg-wittenbach-mail" src="img/adlerweg-wittenbach-mail.svg">
                 </a>
             </div>
         </div>
@@ -64,7 +64,7 @@
                 <li><a href="index">Projekt</a></li>
                 <li><a href="lage">Lage</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
-                <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
+                <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
             </ul>
         </div>
@@ -87,7 +87,7 @@
         <h1 class="headline-left">
             An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
         </h1>
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
+        <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
         <h4 class="three">3</h4>
     </article>
     
@@ -95,7 +95,7 @@
         <h1 class="headline-right">
             In diesen <span>51</span> gemütlichen Wohnungen beginnt ein neuer Lebensabschnitt, der für Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verfügt über ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg.
         </h1>
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
+        <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
         <h4 class="right">51</h4>
     </article>
     
@@ -103,7 +103,7 @@
         <h1 class="headline-left">
             Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und Türen, die von der Decke bis zum Boden reichen, noch mehr an Grösse gewinnt. Mit modernen Flügeltüren zum <span>2.8m</span> tiefen Balkon, lässt sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
         </h1>
-         <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
+         <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
         <h4>2.8</h4>
     </article>
     
@@ -111,7 +111,7 @@
         <ul>
             <li><a href="lage">Lage</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
-            <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
+            <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>
             <li><a href="kontakt">Kontakt</a></li>     
         </ul>   
     </div>

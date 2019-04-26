@@ -12,22 +12,22 @@
     <meta name="google-site-verification" content="...folgt..." />
     
     <meta property="og:type" content="business.business">
-    <meta property="og:title" content="playstressaway">
-    <meta property="og:url" content="http://adlerweg.ch">
-    <meta property="business:contact_data:street_address" content="Schaffhauserstrasse 115">
-    <meta property="business:contact_data:locality" content="Kloten">
-    <meta property="business:contact_data:region" content="8302">
-    <meta property="business:contact_data:postal_code" content="8302">
+    <meta property="og:title" content="adlerweg-wittenbach">
+    <meta property="og:url" content="http://adlerweg.sg">
+    <meta property="business:contact_data:street_address" content="Oedenhofstrasse 11A">
+    <meta property="business:contact_data:locality" content="Wittenbach">
+    <meta property="business:contact_data:region" content="9300">
+    <meta property="business:contact_data:postal_code" content="9300">
     <meta property="business:contact_data:country_name" content="Switzerland">
     
-    <meta name="description" content="folgt">
+    <meta name="description" content="An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen 3 neue Mehrfamilienhäuser mit insgesamt 51 Mietwohnungen, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#005a32">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#A52340">
     <meta name="msapplication-TileColor" content="#fbfbfb">
     <meta name="theme-color" content="#ffffff">
 
@@ -55,7 +55,7 @@
             </div>
             <div class="mail">
                 <a href="kontakt">
-                    <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mail.svg">
+                    <img alt="adlerweg-wittenbach-mail" src="img/adlerweg-wittenbach-mail.svg">
                 </a>
             </div>
         </div>
@@ -64,7 +64,7 @@
                 <li><a href="index">Projekt</a></li>
                 <li><a href="lage">Lage</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
-                <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
+                <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
             </ul>
         </div>
@@ -79,7 +79,7 @@
             <span>Wittenbach</span><br><br>
             Die Wohngemeinde Wittenbach ist dank ihrer ausgesprochen attraktiven Lage zwischen St.Gallen und Bodensee nicht nur bei Familien sehr beliebt; Bewohner aller Altersgruppen erfreuen sich der vielen Möglichkeiten wie dem Naherholungsgebiet oder dem schnellen Anschluss mit öffentlichen oder privaten Verkehrsmitteln zur Stadt.
         </h1>
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-01.jpg" >
+        <img alt="adlerweg-wittenbach-mehrfamilienhaus-lage-01" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-01.jpg" >
     </article>
     
     <article class="article-projekt">
@@ -87,7 +87,7 @@
             <span>Schloss Dottenwil</span><br><br>
             Ein breites Angebot von kulturellen, musischen, sozialen und sportlichen Vereinen laden die Bewohner ein sich zu betätigen, zu unterhalten, auszutauschen oder einfach nur zu geniessen. Das Schloss Dottenwil zieht bis weit über die Gemeindegrenze ein interessiertes Publikum mit Lesungen, Performances, Konzerten und Ausstellungen an und vereint mit jedem Anlass die Geschichte mit der Gegenwart.
         </h1>
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-02.jpg" >
+        <img alt="adlerweg-wittenbach-mehrfamilienhaus-lage-02" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-02.jpg" >
     </article>
     
     <article class="article-projekt">
@@ -95,7 +95,7 @@
             <span>Adlerweg</span><br><br>
             Die Wohnungen am Adlerweg stehen parallel zur Oedenhofstrasse und 5 min vom Bahnhof Wittenbach entfernt. In gehdistanz zu Ihrem neuen Zuhause liegen: Stadtbus, Post, Raiffeisenbank, Restaurant, Zahnarzt, Arzt und verschiedene Einkaufsmöglichkeiten.
         </h1>
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss.svg" >
+        <img alt="adlerweg-wittenbach-grundriss" src="img/adlerweg-wittenbach-grundriss.svg" >
     </article>
     
     
@@ -103,7 +103,7 @@
         <ul>
             <li><a href="index">Projekt</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
-            <li><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank">Miete</a></li>
+            <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>
             <li><a href="kontakt">Kontakt</a></li>     
         </ul>   
     </div>
@@ -114,13 +114,7 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <!--<script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+    
 </body>
 
 </html>
