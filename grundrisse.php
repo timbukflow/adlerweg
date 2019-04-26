@@ -55,7 +55,7 @@
             </div>
             <div class="mail">
                 <a href="kontakt">
-                    <img alt="adlerweg-wittenbach-mail" src="img/adlerweg-wittenbach-mail.svg">
+                    <img alt="adlerweg-wittenbach-mail" src="img/adlerweg-wittenbach-mail.svg" height="26" width="18">
                 </a>
             </div>
         </div>

@@ -836,7 +836,7 @@ responsive ipad
     h1.header {margin: 0;}
     .header span {display: block;}
     .minergie {width: 100%}
-    .minergie img {width: 170px; padding:15px;}
+    .minergie img {width: 170px; margin: 8px; margin-left: 18px;}
     .minergie h1, .minergie h1.red {padding:15px;}
     .minergie h1.red {float: right;}
     h4 {top: 26%;}
@@ -848,9 +848,8 @@ responsive ipad
     .three {top:16%;}
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 690px) {
     .minergie h1.red {width: 100%;} 
-    .headerimg {min-height: 78vh;}
     h4 {top: 30%; left: 50%;}
     .right {left: 50%;}
     .three {top: 20%;}
@@ -868,11 +867,11 @@ responsive ipad
     .footer li {width: 100%;}
     .footer li a {padding: 12px; padding-right: 20px; text-align: right;}
     h1.header {font-size: 18px !important; padding-top: 5px;}
-    .minergie img {padding-right: 0px;}
     .three {top: 18%;}
     .article-grundrisse-right img {margin: 80px 10%; width: 80%;}
     .article-grundrisse {padding-top: 10px;}
     .container-kontakt {width: 100%;}
+    .minergie img { width: 150px; margin: 8px; margin-left: 18px; margin-right: 0;}
 }
 
 @media only screen and (max-width: 415px) {
@@ -881,8 +880,8 @@ responsive ipad
     h1.header {font-size: 18px !important; padding-top: 5px;}
     .logo {width: 90px !important;}
     #navburger {margin: 17px 0px !important;}
-    .minergie h1 {font-size: 20px; padding: 10px;}
-    .minergie img {width: 120px; padding: 10px; padding-right: 0px;}
+    .minergie h1 {font-size: 20px; padding: 10px; padding-top: 14px;}
+    .minergie img {width: 120px;}
     .minergie h1.red {padding: 10px;}
     h4 {font-size: 130px; left: 50%; top:36%;}
     .right {left: 50%;}
