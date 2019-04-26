@@ -78,14 +78,14 @@
                 Pauschale Nebenkosten
             </h1>
             <h1 class="red">
-                Bezug ab Frühjahr 2020
+                Bezug ab Fr&#252;hjahr 2020
             </h1>
         </div>
     </div>
     
     <article class="article-projekt">
         <h1 class="headline-left">
-            An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
+            An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienh&#228;user, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
         </h1>
         <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
         <h4 class="three">3</h4>
@@ -93,7 +93,7 @@
     
     <article class="article-projekt">
         <h1 class="headline-right">
-            In diesen <span>51</span> gemütlichen Wohnungen beginnt ein neuer Lebensabschnitt, der für Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verfügt über ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg.
+            In diesen <span>51</span> gem&#252;tlichen Wohnungen beginnt ein neuer Lebensabschnitt, der f&#252;r Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verf&#252;gt &#252;ber ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg.
         </h1>
         <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
         <h4 class="right">51</h4>
@@ -101,7 +101,7 @@
     
      <article class="article-projekt">
         <h1 class="headline-left">
-            Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und Türen, die von der Decke bis zum Boden reichen, noch mehr an Grösse gewinnt. Mit modernen Flügeltüren zum <span>2.8m</span> tiefen Balkon, lässt sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
+            Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und T&#252;ren, die von der Decke bis zum Boden reichen, noch mehr an Gr&#246;sse gewinnt. Mit modernen Fl&#252;gelt&#252;ren zum <span>2.8m</span> tiefen Balkon, l&#228;sst sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
         </h1>
          <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
         <h4>2.8</h4>
