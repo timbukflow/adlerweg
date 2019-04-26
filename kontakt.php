@@ -105,8 +105,8 @@
             Postfach 18<br>
             Oberer Graben 16<br>
             9000 St.Gallen<br><br>
-            071 222 92 11<br>
-            info@grafag-sg.ch<br>
+            <a href="tel:0712229211">071 222 92 11</a><br>
+            <a href="mailto:info@grafag-sg.ch" target="_top">info@grafag-sg.ch</a><br>
             <a href="https://www.grafag-sg.ch">www.grafag-sg.ch</a><br><br>
         </p>
     </div>

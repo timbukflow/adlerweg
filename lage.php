@@ -93,7 +93,7 @@
     <article class="article-projekt">
         <h1 class="headline-left-lage">
             <span>Adlerweg</span><br><br>
-            Die Wohnungen am Adlerweg stehen parallel zur Oedenhofstrasse und 5 min vom Bahnhof Wittenbach entfernt. In gehdistanz zu Ihrem neuen Zuhause liegen: Stadtbus, Post, Raiffeisenbank, Restaurant, Zahnarzt, Arzt und verschiedene Einkaufsm&#246;glichkeiten.
+            Die Wohnungen am Adlerweg stehen parallel zur Oedenhofstrasse. Der Bahnhof Wittenbach ist in nur 5 Minuten Gehdistanz erreichbar. In unmittelbarer N&#228;he befinden sich:  Stadtbus, Post, Raiffeisenbank, Restaurant, Zahnarzt, Arzt und verschiedene Einkaufsm&#246;glichkeiten.
         </h1>
         <img alt="adlerweg-wittenbach-grundriss" src="img/adlerweg-wittenbach-grundriss.svg" >
     </article>
