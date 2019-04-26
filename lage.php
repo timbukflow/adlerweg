@@ -85,7 +85,7 @@
     <article class="article-projekt">
         <h1 class="headline-right-lage">
             <span>Schloss Dottenwil</span><br><br>
-            Ein breites Angebot von kulturellen, musischen, sozialen und sportlichen Vereinen laden die Bewohner ein sich zu bet&#228;tigen, zu unterhalten, auszutauschen oder einfach nur zu geniessen. Das Schloss Dottenwil zieht bis weit über die Gemeindegrenze ein interessiertes Publikum mit Lesungen, Performances, Konzerten und Ausstellungen an und vereint mit jedem Anlass die Geschichte mit der Gegenwart.
+            Ein breites Angebot von kulturellen, musischen, sozialen und sportlichen Vereinen laden die Bewohner ein sich zu bet&#228;tigen, zu unterhalten, auszutauschen oder einfach nur zu geniessen. Das Schloss Dottenwil zieht bis weit &#252;ber die Gemeindegrenze ein interessiertes Publikum mit Lesungen, Performances, Konzerten und Ausstellungen an und vereint mit jedem Anlass die Geschichte mit der Gegenwart.
         </h1>
         <img alt="adlerweg-wittenbach-mehrfamilienhaus-lage-02" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-02.jpg" >
     </article>
