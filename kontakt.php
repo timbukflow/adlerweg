@@ -112,7 +112,7 @@
     </div>
     
     <div class="container-kontakt">
-        <h1>Eigentümer</h1>
+        <h1>Eigent&#252;mer</h1>
         <img alt="pkar-logo" src="img/pkar.png" >
         <p>
             Pensionskasse AR<br>
@@ -123,7 +123,7 @@
                 Konditionen
             </span>
             <span id="konditionen">
-                <br>Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus s&#228;mtlichen Pl&#228;nen, Zeichnungen, Darstellungen, M&#246;blierungen, Visualisierungen oder Beschreibungen k&#246;nnen keinerlei Ansprüche abgeleitet werden. Insbesondere kommt den Pl&#228;nen keine gesetzliche Wirkung von Grundbuchpl&#228;nen zu. Ausführungsbedingte &#196;nderungen, Anpassungen und/oder Massabweichungen k&#246;nnen vorkommen und bleiben jederzeit ausdrücklich vorbehalten. S&#228;mtliche Massangaben sind Circa-Masse.<br>
+                <br>Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus s&#228;mtlichen Pl&#228;nen, Zeichnungen, Darstellungen, M&#246;blierungen, Visualisierungen oder Beschreibungen k&#246;nnen keinerlei Anspr&#252;che abgeleitet werden. Insbesondere kommt den Pl&#228;nen keine gesetzliche Wirkung von Grundbuchpl&#228;nen zu. Ausf&#252;hrungsbedingte &#196;nderungen, Anpassungen und/oder Massabweichungen k&#246;nnen vorkommen und bleiben jederzeit ausdr&#252;cklich vorbehalten. S&#228;mtliche Massangaben sind Circa-Masse.<br>
             </span>
             <span class="impressum togglelink" data-toggle="#impressum">
                 Impressum
