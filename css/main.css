@@ -883,7 +883,6 @@ responsive ipad
     .minergie h1 {font-size: 20px; padding: 10px;}
     .minergie img {width: 120px; padding: 10px; padding-right: 0px;}
     .minergie h1.red {padding: 10px;}
-
     h4 {font-size: 130px; left: 50%; top:36%;}
     .right {left: 50%;}
     .three {top: 25%;}
@@ -892,6 +891,8 @@ responsive ipad
 @media only screen and (max-width: 375px) {
     h4 {top: 40%;}
     .three {top: 26%;}
+    .container {padding: 0 10px;}
+    .container-kontakt {padding: 0px 40px;}
 }
 
 
