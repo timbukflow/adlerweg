@@ -45,7 +45,7 @@
         <div class="logocontainer">
             <a href="index" target="_top">
                 <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg">
-                <h1 class="header">ADLERWEG WITTENBACH</h1>
+                <h1 class="header">ADLERWEG <span>WITTENBACH</span></h1>
             </a>
             <div id="navburger">
                 <span></span>
@@ -74,36 +74,36 @@
         <div class="headerimg"></div>
         <div class="minergie">
             <img alt="minergie-logo" src="img/minergie_logo.svg" >
-            <h1 class="red">
-                Bezug ab Frühjahr 2020
-            </h1>
             <h1>
                 Pauschale Nebenkosten
+            </h1>
+            <h1 class="red">
+                Bezug ab Frühjahr 2020
             </h1>
         </div>
     </div>
     
     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
         <h1 class="headline-left">
             An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienhäuser, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
         </h1>
-        <h4>3</h4>
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
+        <h4 class="three">3</h4>
     </article>
     
     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
         <h1 class="headline-right">
             In diesen <span>51</span> gemütlichen Wohnungen beginnt ein neuer Lebensabschnitt, der für Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verfügt über ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg.
         </h1>
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
         <h4 class="right">51</h4>
     </article>
     
      <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
         <h1 class="headline-left">
             Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und Türen, die von der Decke bis zum Boden reichen, noch mehr an Grösse gewinnt. Mit modernen Flügeltüren zum <span>2.8m</span> tiefen Balkon, lässt sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
         </h1>
+         <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
         <h4>2.8</h4>
     </article>
     

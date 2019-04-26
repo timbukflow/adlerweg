@@ -45,7 +45,7 @@
         <div class="logocontainer">
             <a href="index" target="_top">
                 <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg">
-                <h1 class="header">ADLERWEG WITTENBACH</h1>
+                <h1 class="header">ADLERWEG <span>WITTENBACH</span></h1>
             </a>
             <div id="navburger">
                 <span></span>
@@ -94,104 +94,104 @@
                     <td class="l">112.90 m²</td>
                 </tr>
                 <tr> 
-                    <td><a href="miete"><span>&#8595;</span> Preisliste</a></td>
-                    <td class="l"><a href="miete"><span>&#8595;</span> Grundrisse PDF</a></td>
+                    <td><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank"><span>&#8595;</span> Miete</a></td>
+                    <td class="l"><a href="..."><span>&#8595;</span> Grundrisse PDF</a></td>
                 </tr>
             </table>
         </div>
         <div class="article-grundrisse-right">
-            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-og.png" >
+            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-wohnungen-og.png" >
         </div>
     </article>
     
     <article class="article-grundrisse">
         <div class="article-grundrisse-left">
             <h2>
-                Erdgeschoss<br><span>Haus A1</span>
+                Erdgeschoss<br><span>Adlerweg 1</span>
             </h2>
             <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-eg-1.svg" >
             <table style="width:100%">   
-                <tr>    
-                    <th>Ebene</th>  
+                <tr>      
                     <th>Wohnung</th>
-                    <th>Fläche</th>
+                    <th class="l">Fläche</th>
                 </tr>   
-                <tr>   
-                    <td>OG</td>
+                <tr>
                     <td><span><b>1</b> / 3,5er</span></td> 
-                    <td>89.80 m²</td>
+                    <td class="l">89.70 m²</td>
                 </tr> 
-                <tr> 
-                    <td>OG</td>
-                    <td><span>2 / 2,5er</span></td> 
-                    <td>75.00 m²</td>
+                <tr>
+                    <td><span><b>2</b> / 2,5er</span></td> 
+                    <td class="l">77.50 m²</td>
                 </tr>
                 <tr> 
-                    <td>OG</td>
-                    <td><span>3 / 4,5er</span></td> 
-                    <td>112.90 m²</td>
+                    <td><span><b>3</b> / 3,5er</span></td> 
+                    <td class="l">93.50 m²</td>
                 </tr>
                 <tr> 
-                    <td><a href="miete"><span>&#8595; Preisliste</span></a></td>
-                    <td></td>
-                    <td><a href="miete"><span>&#8595; Grundrisse PDF</span></a></td>
+                    <td><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank"><span>&#8595;</span> Miete</a></td>
+                    <td class="l"><a href="..."><span>&#8595;</span> Grundrisse PDF</a></td>
                 </tr>
             </table>
         </div>
         <div class="article-grundrisse-right">
-            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss-eg-b2.svg" >
+            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-wohnungen-eg-1.png" >
         </div>
     </article>
     
      <article class="article-grundrisse">
         <div class="article-grundrisse-left">
             <h2>
-                Erdgeschoss<br><span>Haus A2 / A4</span>
+                Erdgeschoss<br><span>Adlerweg 2, 4</span>
             </h2>
             <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-eg-2.svg" >
             <table style="width:100%">   
-                <tr>    
-                    <th>Haus</th>    
-                    <th>Ebene</th>  
+                <tr>      
                     <th>Wohnung</th>
-                    <th>Fläche</th>
+                    <th class="l">Fläche</th>
                 </tr>   
-                <tr>   
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
-                    <td><span>1 / 3,5er</span></td> 
-                    <td>89.80 m²</td>
+                <tr>
+                    <td><span><b>1</b> / 3,5er</span></td> 
+                    <td class="l">89.50 m²</td>
                 </tr> 
-                <tr> 
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
-                    <td><span>2 / 2,5er</span></td> 
-                    <td>75.00 m²</td>
+                <tr>
+                    <td><span><b>2</b> / 4,5er</span></td> 
+                    <td class="l">118.00 m²</td>
                 </tr>
                 <tr> 
-                    <td>A1 / A2 / A4</td> 
-                    <td>Obergeschoss</td>
-                    <td><span>3 / 4,5er</span></td> 
-                    <td>112.90 m²</td>
+                    <td><span><b>3</b> / 2,5er</span></td> 
+                    <td class="l">56.30 m²</td>
                 </tr>
                 <tr> 
-                    <td><a href="miete"><span>&#8594; Miete</span></a></td>
-                    <td></td>
-                    <td><a href="miete"><span>&#8595; Grundrisse PDF</span></a></td>
-                    <td></td>
+                    <td><a href="download/Adlerweg-Wittenbach-Inlay.pdf" target="_blank"><span>&#8595;</span> Miete</a></td>
+                    <td class="l"><a href="..."><span>&#8595;</span> Grundrisse PDF</a></td>
                 </tr>
             </table>
         </div>
         <div class="article-grundrisse-right">
-            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss-eg-b2.svg" >
+            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-wohnungen-eg-2.png" >
+        </div>
+    </article>
+    
+    <article class="article-grundrisse buttong">
+        <div class="article-grundrisse-ug">
+            <h2>
+                1. Untergeschoss <br><span>Adlerweg 1, 2, 4</span>
+            </h2>
+            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-wohnungen-ug-1.png" >
+        </div>
+        <div class="article-grundrisse-ug">
+            <h2>
+                2. Untergeschoss <br><span>Adlerweg 1, 2, 4</span>
+            </h2>
+            <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundrisse-wohnungen-ug-2.png" >
         </div>
     </article>
     
     <div class="footer">
         <ul>
             <li><a href="index">Projekt</a></li>
-            <li><a href="grundrisse">Grundrisse</a></li>
-            <li><a href="preise">Preise</a></li>
+            <li><a href="lage">Lage</a></li>
+            <li><a href="miete">Miete</a></li>
             <li><a href="kontakt">Kontakt</a></li>     
         </ul>   
     </div>

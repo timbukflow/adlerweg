@@ -45,7 +45,7 @@
         <div class="logocontainer">
             <a href="index" target="_top">
                 <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg">
-                <h1 class="header">ADLERWEG WITTENBACH</h1>
+                <h1 class="header">ADLERWEG <span>WITTENBACH</span></h1>
             </a>
             <div id="navburger">
                 <span></span>
@@ -98,8 +98,9 @@
     
     <div class="container-kontakt">
         <h1>Kontakt</h1>
+        <img alt="adlerweg-wittenbach-logo" src="img/logo-graf-gu.png" >
         <p>
-            <span>Architektur<br>Bauleitung<br>Vermarktung<br></span>
+            <!--<span>Architektur<br>Bauleitung<br>Vermarktung<br></span>-->
             Graf GU AG<br>
             Postfach 18<br>
             Oberer Graben 16<br>
@@ -107,42 +108,45 @@
             071 222 92 11<br>
             info@grafag-sg.ch<br>
             <a href="https://www.grafag-sg.ch">www.grafag-sg.ch</a><br><br>
-            <span>Eigentümer<br></span>
-            Pensionskasse AR<br>
-            Kasernenstrasse 6<br>
-            9102 Herisau<br>
-            <a href="https://www.pkar.ch">www.pkar.ch</a><br><br>
-            <span class="impressum togglelink" data-toggle="#impressum">Konditionen</span>
-        </p>
-        <p id="impressum">
-            Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus sämtlichen Plänen, Zeichnungen, Darstellungen, Möblierungen, Visualisierungen oder Beschreibungen können keinerlei Ansprüche abgeleitet werden. Insbesondere kommt den Plänen keine gesetzliche Wirkung von Grundbuchplänen zu. Ausführungsbedingte Änderungen, Anpassungen und/oder Massabweichungen können vorkommen und bleiben jederzeit ausdrücklich vorbehalten. Sämtliche Massangaben sind Circa-Masse.
         </p>
     </div>
     
     <div class="container-kontakt">
-        <h1>Konzept</h1>
+        <h1>Eigentümer</h1>
+        <img alt="adlerweg-wittenbach-logo" src="img/pkar.png" >
         <p>
-            <span>Design &amp; Interaction<br></span>
-            Schwizer &amp; Schlatter GmbH<br>
-            Davidstrasse 45<br>
-            9000 St.Gallen<br>
-            <a href="https://www.schwizerschlatter.com">www.schwizerschlatter.com</a><br><br>
-            
-            <span>Visualisierungen<br></span>    
-            Business Images AG<br>
-            Bruggerstrasse 37b<br>
-            5400 Baden<br>
-            <a href="https://www.businessimages.ch">www.businessimages.ch</a><br><br>
-            
-            <span>Fotografie<br></span>
-            Marc Bollhalder<br>
-            Schalkhusenstrasse 10,<br>
-            9533 Kirchberg<br>
-            <a href="https://www.mbphotography.ch">www.mbphotography.ch</a><br>
+            Pensionskasse AR<br>
+            Kasernenstrasse 6<br>
+            9102 Herisau<br>
+            <a href="https://www.pkar.ch">www.pkar.ch</a><br><br>
+            <span class="impressum togglelink" data-toggle="#konditionen">
+                Konditionen
+            </span>
+            <span id="konditionen">
+                <br>Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus sämtlichen Plänen, Zeichnungen, Darstellungen, Möblierungen, Visualisierungen oder Beschreibungen können keinerlei Ansprüche abgeleitet werden. Insbesondere kommt den Plänen keine gesetzliche Wirkung von Grundbuchplänen zu. Ausführungsbedingte Änderungen, Anpassungen und/oder Massabweichungen können vorkommen und bleiben jederzeit ausdrücklich vorbehalten. Sämtliche Massangaben sind Circa-Masse.<br>
+            </span>
+            <span class="impressum togglelink" data-toggle="#impressum">
+                Impressum
+            </span>
+            <span id="impressum">
+                    <br><span>Design &amp; Interaction<br></span>
+                    Schwizer &amp; Schlatter GmbH<br>
+                    Davidstrasse 45<br>
+                    9000 St.Gallen<br>
+                    <a href="https://www.schwizerschlatter.com">www.schwizerschlatter.com</a><br><br>
+                    <span>Visualisierungen<br></span>    
+                    Business Images AG<br>
+                    Bruggerstrasse 37b<br>
+                    5400 Baden<br>
+                    <a href="https://www.businessimages.ch">www.businessimages.ch</a><br><br>
+                    <span>Fotografie<br></span>
+                    Marc Bollhalder<br>
+                    Schalkhusenstrasse 10,<br>
+                    9533 Kirchberg<br>
+                    <a href="https://www.mbphotography.ch">www.mbphotography.ch</a><br>
+            </span>
         </p>
-        
     </div>
-    
     <div class="footer">
         <ul>
             <li><a href="index">Projekt</a></li>

@@ -45,7 +45,7 @@
         <div class="logocontainer">
             <a href="index" target="_top">
                 <img class="logo" alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-logo.svg">
-                <h1 class="header">ADLERWEG WITTENBACH</h1>
+                <h1 class="header">ADLERWEG <span>WITTENBACH</span></h1>
             </a>
             <div id="navburger">
                 <span></span>
@@ -75,27 +75,27 @@
         </div>
     
     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-01.jpg" >
         <h1 class="headline-left-lage">
             <span>Wittenbach</span><br><br>
             Die Wohngemeinde Wittenbach ist dank ihrer ausgesprochen attraktiven Lage zwischen St.Gallen und Bodensee nicht nur bei Familien sehr beliebt; Bewohner aller Altersgruppen erfreuen sich der vielen Möglichkeiten wie dem Naherholungsgebiet oder dem schnellen Anschluss mit öffentlichen oder privaten Verkehrsmitteln zur Stadt.
         </h1>
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-01.jpg" >
     </article>
     
     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-02.jpg" >
         <h1 class="headline-right-lage">
             <span>Schloss Dottenwil</span><br><br>
             Ein breites Angebot von kulturellen, musischen, sozialen und sportlichen Vereinen laden die Bewohner ein sich zu betätigen, zu unterhalten, auszutauschen oder einfach nur zu geniessen. Das Schloss Dottenwil zieht bis weit über die Gemeindegrenze ein interessiertes Publikum mit Lesungen, Performances, Konzerten und Ausstellungen an und vereint mit jedem Anlass die Geschichte mit der Gegenwart.
         </h1>
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-mehrfamilienhaus-lage-02.jpg" >
     </article>
     
     <article class="article-projekt">
-        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss.svg" >
         <h1 class="headline-left-lage">
             <span>Adlerweg</span><br><br>
-            Die Wohnungen am Adlerweg liegen parallel zur Oedenhofstrasse und mitten im Dorfkern. In gehdistanz zu ihrem neuen Zuhause liegen: Bahnhof Wittenbach, Stadtbus, Post, Raiffeisenbank, Restaurant, Zahnarzt, Arzt und verschiedene Einkaufsmöglichkeiten.
+            Die Wohnungen am Adlerweg stehen parallel zur Oedenhofstrasse und 5 min vom Bahnhof Wittenbach entfernt. In gehdistanz zu Ihrem neuen Zuhause liegen: Stadtbus, Post, Raiffeisenbank, Restaurant, Zahnarzt, Arzt und verschiedene Einkaufsmöglichkeiten.
         </h1>
+        <img alt="adlerweg-wittenbach-logo" src="img/adlerweg-wittenbach-grundriss.svg" >
     </article>
     
     
