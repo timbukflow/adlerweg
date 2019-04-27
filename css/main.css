@@ -603,6 +603,7 @@ th, td {
     margin-top: 150px;
     margin-bottom: 50px;
     float: left;
+    min-height: calc(100vh - 296px);
 }
 
 .error {
