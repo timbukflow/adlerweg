@@ -107,7 +107,7 @@
             9000 St.Gallen<br><br>
             <a href="tel:0712229211">071 222 92 11</a><br>
             <a href="mailto:info@grafag-sg.ch" target="_top">info@grafag-sg.ch</a><br>
-            <a href="https://www.grafag-sg.ch">www.grafag-sg.ch</a><br><br>
+            <a href="http://www.grafag-sg.ch">www.grafag-sg.ch</a><br><br>
         </p>
     </div>
     
@@ -118,7 +118,7 @@
             Pensionskasse AR<br>
             Kasernenstrasse 6<br>
             9102 Herisau<br>
-            <a href="https://www.pkar.ch">www.pkar.ch</a><br><br>
+            <a href="http://www.pkar.ch">www.pkar.ch</a><br><br>
             <span class="impressum togglelink" data-toggle="#konditionen">
                 Konditionen
             </span>
