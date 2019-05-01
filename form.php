@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $message_body .= "$key: $value\n";
         }
         
-        $to = "ivoschwizer@gmail.com";
+        $to = "info@grafag-sg.ch";
         $subject = "Adlerweg Wittenbach Anfrage";
         if (mail($to, $subject, $message_body)){
             $success = "Ihre Anfrage wurde erfolgreich gesendet, danke für Ihr Interesse.";

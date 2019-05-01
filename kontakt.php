@@ -90,7 +90,7 @@
                 <span class="error"><?= $mitteilung_error ?></span>
             </fieldset>
             <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Abschicken</button>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Senden</button>
             </fieldset>
             <div class="success"><?= $success; ?></div>
         </form>
@@ -100,7 +100,6 @@
         <h1>Kontakt</h1>
         <img alt="logo-graf-gu" src="img/logo-graf-gu.png" >
         <p>
-            <!--<span>Architektur<br>Bauleitung<br>Vermarktung<br></span>-->
             Graf GU AG<br>
             Postfach 18<br>
             Oberer Graben 16<br>
