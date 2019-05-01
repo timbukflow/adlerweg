@@ -9,7 +9,7 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="Graf AG Totalunternehmung">
     
-    <meta name="google-site-verification" content="...folgt..." />
+    <meta name="google-site-verification" content="google-site-verification=SBh1hapgiodX4QINCh7HV9b9sqd0_0LBOngBxjI-tqw" />
     
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="adlerweg-wittenbach">
