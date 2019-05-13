@@ -141,7 +141,6 @@ h1 {
     padding: 0 15px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
@@ -501,6 +500,11 @@ button:focus {
     color: rgba(38, 30, 34, 0.75);
     padding: 21px;
     margin: 0;
+    word-wrap: normal;
+    overflow-wrap: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
 }
 
 /*---------------------------------- 
