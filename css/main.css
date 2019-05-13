@@ -482,6 +482,25 @@ button:focus {
     position: relative;
 }
 
+.pkar {
+    position: relative;
+    height: 70px;
+    width: 90%;
+    margin: 30px 5%;
+}
+
+.pkar img {
+    position: absolute;
+    right: 0px;
+}
+
+.pkar h1 {
+    position: absolute;
+    right: 200px;
+    color: rgba(38, 30, 34, 0.75);
+    padding: 21px;
+    margin: 0;
+}
 
 /*---------------------------------- 
     artikle grundrisse 
@@ -844,7 +863,8 @@ responsive ipad
     .headerimg {min-height: 88vh;}
     .article-grundrisse-left, .article-grundrisse-ug {width: 80%; margin: 0px 10%;}
     .article-grundrisse-right {width: 100%;}
-    .container {width: 100%;}
+    .container {width: 100%; min-height: auto;
+}
     .container-kontakt {width: 50%; margin-top: 0; padding: 0px 80px;}
     .three {top:16%;}
 }

@@ -98,6 +98,11 @@
         <img alt="adlerweg-wittenbach-grundriss" src="img/adlerweg-wittenbach-grundriss.svg" >
     </article>
     
+    <div class="pkar">
+        <h1>Bauherrin / Eigent&#252;merin</h1>
+        <img alt="minergie-logo" src="img/pkar.svg" height="70" width="162" >
+    </div>
+    
     
     <div class="footer">
         <ul>

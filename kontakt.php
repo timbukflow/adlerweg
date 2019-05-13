@@ -97,7 +97,7 @@
     </div>
     
     <div class="container-kontakt">
-        <h1>Kontakt</h1>
+        <h1>Architektur<br>Bauleitung<br>Vermarktung</h1>
         <img alt="logo-graf-gu" src="img/logo-graf-gu.png" >
         <p>
             Graf GU AG<br>
@@ -111,7 +111,7 @@
     </div>
     
     <div class="container-kontakt">
-        <h1>Eigent&#252;mer</h1>
+        <h1>Bauherrin<br>Eigent&#252;merin</h1>
         <img alt="pkar-logo" src="img/pkar.png" >
         <p>
             Pensionskasse AR<br>
