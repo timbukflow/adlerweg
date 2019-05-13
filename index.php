@@ -104,7 +104,7 @@
             Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und T&#252;ren, die von der Decke bis zum Boden reichen, noch mehr an Gr&#246;sse gewinnt. Mit modernen Fl&#252;gelt&#252;ren zum <span>2.8m</span> tiefen Balkon, l&#228;sst sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
         </h1>
          <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
-        <h4>2.8</h4>
+        <h4 class="respnr">2.8</h4>
     </article>
     
     <div class="pkar">
