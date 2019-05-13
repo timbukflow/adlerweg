@@ -497,6 +497,7 @@ button:focus {
 .pkar h1 {
     position: absolute;
     right: 200px;
+    font-size: 18px;
     color: rgba(38, 30, 34, 0.75);
     padding: 21px;
     margin: 0;
@@ -926,7 +927,6 @@ responsive ipad
     .three {top: 31%;}
     .right {top: 45%;}
     .respnr {top: 46%;left: 45%;}
-    .pkar h1 {font-size: 18px;}
     #navburger {margin: 12px 0px !important;}
 }
 
