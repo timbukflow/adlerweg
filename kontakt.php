@@ -4,7 +4,7 @@
 <head>
    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>adlerweg</title>
+    <title>adlerweg.sg kontakt</title>
     <meta name="robots" content="all">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Graf AG Totalunternehmung">
@@ -56,8 +56,8 @@
         </div>
         <div class="nav">
             <ul>
-                <li><a href="index">Projekt</a></li>
-                <li><a href="lage">Lage</a></li>
+                <li><a href="index">Adlerweg</a></li>
+                <li><a href="lage">Wittenbach</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
                 <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
@@ -148,8 +148,8 @@
     </div>
     <div class="footer">
         <ul>
-            <li><a href="index">Projekt</a></li>
-            <li><a href="lage">Lage</a></li>
+            <li><a href="index">Adlerweg</a></li>
+            <li><a href="lage">Wittenbach</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
             <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>   
         </ul>   

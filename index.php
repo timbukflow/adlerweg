@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>adlerweg</title>
+    <title>adlerweg.sg</title>
     <meta name="robots" content="all">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Graf AG Totalunternehmung">
@@ -61,8 +61,8 @@
         </div>
         <div class="nav">
             <ul>
-                <li><a href="index">Projekt</a></li>
-                <li><a href="lage">Lage</a></li>
+                <li><a href="index">Adlerweg</a></li>
+                <li><a href="lage">Wittenbach</a></li>
                 <li><a href="grundrisse">Grundrisse</a></li>
                 <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
@@ -87,15 +87,21 @@
         <h1 class="headline-left">
             An zentraler Lage, mitten im Dorfkern von Wittenbach am Adlerweg, entstehen <span>3</span>  neue Mehrfamilienh&#228;user, bei denen das Leben und dessen Begegnungen ganz im Zentrum stehen.
         </h1>
-        <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
+        <figure>
+            <img alt="adlerweg wittenbach mehrfamilienhaus wohnungen aussenansicht" title="Adlerweg Wittenbach Aussenansicht" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-aussenansicht.jpg" >
+            <figcaption>Adlerweg Wittenbach Aussenansicht</figcaption>
+        </figure>
         <h4 class="three">3</h4>
     </article>
     
     <article class="article-projekt">
         <h1 class="headline-right">
-            In diesen <span>51</span> gem&#252;tlichen Wohnungen beginnt ein neuer Lebensabschnitt, der f&#252;r Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verf&#252;gt &#252;ber ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg.
+            In diesen <span>51</span> gem&#252;tlichen Wohnungen beginnt ein neuer Lebensabschnitt, der f&#252;r Sie massgeschneidert zum «Leben Geniessen» konzipiert ist. Jede Wohnung verf&#252;gt &#252;ber ein je separates WC und ist bequem mit dem Lift erreichbar. Komfort und ein hoher Ausbaustandard unterstreichen das Projekt am Adlerweg in Wittenbach.
         </h1>
-        <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
+        <figure>
+            <img alt="adlerweg wittenbach mehrfamilienhaus wohnungen schlafzimmer" title="Adlerweg Wittenbach Schlafzimmer" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-schlafzimmer.jpg" >
+            <figcaption class="imgdesright">Adlerweg Wittenbach Schlafzimmer</figcaption>
+        </figure>
         <h4 class="right">51</h4>
     </article>
     
@@ -103,7 +109,10 @@
         <h1 class="headline-left">
             Der grosse Wohn-, Ess- und Kochbereich ist der Mittelpunkt der lichtdurchfluteten Wohnungen, der durch Fenster und T&#252;ren, die von der Decke bis zum Boden reichen, noch mehr an Gr&#246;sse gewinnt. Mit modernen Fl&#252;gelt&#252;ren zum <span>2.8m</span> tiefen Balkon, l&#228;sst sich der ganze Wohnbereich mit dem Aussen bequem verbinden. 
         </h1>
-         <img alt="adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
+        <figure>
+            <img alt="adlerweg wittenbach mehrfamilienhaus wohnungen balkon" title="Adlerweg Wittenbach Balkon" src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" >
+            <figcaption>Adlerweg Wittenbach Balkon</figcaption>
+        </figure>
         <h4 class="respnr">2.8</h4>
     </article>
     
@@ -114,7 +123,7 @@
     
     <div class="footer">
         <ul>
-            <li><a href="lage">Lage</a></li>
+            <li><a href="lage">Wittenbach</a></li>
             <li><a href="grundrisse">Grundrisse</a></li>
             <li><a href="download/adlerweg-wittenbach-inlay.pdf" target="_blank">Miete</a></li>
             <li><a href="kontakt">Kontakt</a></li>     

@@ -111,7 +111,7 @@ body {
   background: #fff;
 }
 
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, p, a, figcaption {
     font-family: 'Amiri', serif;
     color: rgba(38, 30, 34, 0.75);
     font-weight: 400;
@@ -230,6 +230,24 @@ a {
 
 button:focus {
     outline: none;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+figcaption {
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    color: #ffffffc7;
+}
+
+.imgdesright {
+    right: 0;
 }
 
 /*---------------------------------- 
