@@ -118,21 +118,16 @@
             Kasernenstrasse 6<br>
             9102 Herisau<br>
             <a href="http://www.pkar.ch">www.pkar.ch</a><br><br>
-            <span class="impressum togglelink" data-toggle="#konditionen">
+            <span class="impressum datalink" data-target="#konditionen">
                 Konditionen
             </span>
             <span id="konditionen">
                 <br>Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus s&#228;mtlichen Pl&#228;nen, Zeichnungen, Darstellungen, M&#246;blierungen, Visualisierungen oder Beschreibungen k&#246;nnen keinerlei Anspr&#252;che abgeleitet werden. Insbesondere kommt den Pl&#228;nen keine gesetzliche Wirkung von Grundbuchpl&#228;nen zu. Ausf&#252;hrungsbedingte &#196;nderungen, Anpassungen und/oder Massabweichungen k&#246;nnen vorkommen und bleiben jederzeit ausdr&#252;cklich vorbehalten. S&#228;mtliche Massangaben sind Circa-Masse.<br>
             </span>
-            <span class="impressum togglelink" data-toggle="#impressum">
+            <span class="impressum datalink" data-target="#impressum">
                 Impressum
             </span>
             <span id="impressum">
-                    <br><span>Design &amp; Interaction<br></span>
-                    Schwizer &amp; Schlatter GmbH<br>
-                    Davidstrasse 45<br>
-                    9000 St.Gallen<br>
-                    <a href="https://www.schwizerschlatter.com">www.schwizerschlatter.com</a><br><br>
                     <span>Visualisierungen<br></span>    
                     Business Images AG<br>
                     Bruggerstrasse 37b<br>

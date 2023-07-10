@@ -37,6 +37,11 @@ $(document).ready(function () {
         var totoggle = $(this).attr("data-toggle");
         $(totoggle).slideToggle();
     });
+    $('.datalink').click(function() {
+        var $target = $($(this).data("target"));
+        $target.slideToggle(300, function() {
+        });
+      });
 
     
     ///////////////// fade in ///////////////// 
